@@ -1,0 +1,117 @@
+
+--- insight\group01_profitability.md ---
+1. **Xu hướng ROA toàn ngành**: ROA trung bình tăng 0.01pp từ 1.04% (2020) lên 1.04% (2024).
+
+2. **Đòn bẩy & ROE**: Nhóm đòn bẩy cao (top 25%) có ROE TB = 6.62%, nhóm đòn bẩy thấp (bottom 25%) có ROE TB = 12.12%. Đòn bẩy cao không đồng nghĩa với ROE cao — rủi ro vận hành.
+
+3. **DuPont Driver chính (2024)**: Yếu tố tương quan mạnh nhất với ROE là **Profit Margin** (r = -0.904). Đây là đòn bẩy chiến lược quan trọng nhất ảnh hưởng đến hiệu quả sinh lời.
+
+4. **Tích lũy nội bộ**: Nhóm có LN chưa phân phối/VCSH cao (>27.1%) gồm 7 NH, cho thấy khả năng tự tái đầu tư mạnh, giảm phụ thuộc huy động vốn bên ngoài.
+
+5. **Phân hóa ngành**: Khoảng cách ROE giữa NH tốt nhất và kém nhất (2022–2024) là 54.68pp. Độ lệch chuẩn ROE trung bình = 11.30pp → phân hóa mạnh.
+
+--- insight\group02_nim.md ---
+1. **NIM toan nganh**: NIM trung binh tu 2.51% (2015) den 2.79% (2024). Dinh NIM dat 3.23% vao nam 2022.
+
+2. **Spread (Yield - Cost)**: Spread trung binh mo rong tu 3.26pp (2015) den 3.54pp (2024). NH co loi the canh tranh khi duy tri spread rong.
+
+3. **Phan hoa NIM**: Chenh lech NIM giua NH tot nhat va kem nhat (2022--2024) la 5.49pp. Do lech chuan = 1.06pp.
+
+4. **NIM vs Chi phi huy dong**: Tuong quan r = -0.418. NH co chi phi huy dong thap co xu huong NIM cao hon.
+
+5. **NIM Compression**: 18/27 NH bi thu hep NIM (2022->2024), 3 NH mo rong. Da so NH dang chiu ap luc thu hep bien lai.
+
+--- insight\group03_asset_quality.md ---
+1. **NPL toan nganh**: NPL trung binh tang tu 1.74% (2020) len 2.87% (2024).
+
+2. **Muc do du phong**: 18 NH co ty le bao phu < 100% (thieu du phong), 3 NH co bao phu >= 150% (du phong day).
+
+3. **Chi phi tin dung**: Nhom chi phi tin dung cao (top 25%, >1.28%) gom 7 NH — dang tra gia cho chat luong tai san kem.
+
+4. **Ap luc du phong**: 5 NH co du phong chiem >50% PPOP — loi nhuan that bi bao mon nghiem trong boi no xau.
+
+5. **Canh bao som**: 7 NH co no can chu y (Nhom 2) o muc cao (>1.73%), co nguy co chuyen thanh no xau trong tuong lai.
+
+--- insight\group04_funding_casa.md ---
+1. **CASA toan nganh**: CASA trung binh giam tu 16.41% (2015) den 15.72% (2024).
+
+2. **Phan hoa CASA**: Chenh lech CASA giua NH tot nhat va kem nhat la 33.14pp. NH CASA cao co loi the chi phi von re, gop phan cai thien NIM.
+
+3. **Phu thuoc von thi truong**: 7 NH co ty le wholesale funding >15% — rui ro thanh khoan va chi phi von cao hon.
+
+4. **On dinh tien gui**: NH co ty le TG ca nhan cao (>68.2%) co co so KH ben vung hon. Nhom nay gom 13 NH.
+
+5. **CASA va NIM (tham chieu cheo Nhom 2)**: NH co CASA cao thuong co chi phi huy dong thap, giup duy tri NIM tot. Day la loi the canh tranh cot loi trong moi truong lai suat giam.
+
+--- insight\group05_revenue_diversification.md ---
+1. **Xu huong da dang hoa**: Thu nhap ngoai lai TB tang tu 14.79% (2015) den 18.15% (2024).
+
+2. **Thu nhap dich vu**: Fee/TOI tang tu 4.89% den 7.99%. Xu huong tich cuc, giam phu thuoc tin dung.
+
+3. **Rui ro trading**: 7 NH co bien dong trading income cao (top 25%) — nguon thu khong ben vung.
+
+4. **Bancassurance**: 15 NH co thu bao hiem >5% tong thu dich vu — chien luoc bancassurance dang phat huy hieu qua.
+
+5. **Digital proxy**: 13 NH co thu thanh toan vuot median (45.9%) — dau hieu chuyen doi so manh.
+
+--- insight\group06_cir_efficiency.md ---
+1. **CIR toan nganh**: CIR TB tang (xau) tu -59.73% den -30.10%.
+
+2. **Phan hoa CIR**: Chenh lech 61.82pp giua NH hieu qua nhat va kem nhat.
+
+4. **Chi phi nhan su**: Staff cost chiem trung binh -57.1% tong chi phi. Day la chi phi lon nhat va kho cat giam nhat.
+
+--- insight\group07_liquidity_ldr.md ---
+1. **LDR toan nganh**: LDR TB tang tu 80.72% den 104.87%. Ap luc thanh khoan gia tang.
+
+2. **Vuot tran LDR**: 15 NH co LDR >100% — cho vay vuot kha nang huy dong tien gui.
+
+3. **Rui ro ky han**: 4 NH co cho vay dai han >40% — rui ro maturity mismatch khi huy dong chu yeu ngan han.
+
+4. **Dem thanh khoan mong**: 0 NH co liquid assets <5% TTS — kha nang chong do ap luc rut tien yeu.
+
+--- insight\group08_credit_concentration.md ---
+1. **HHI**: HHI trung binh 1461 — phan tan (<1500).
+
+2. **Phoi nhiem BDS**: 2 NH co ty le cho vay BDS >20% — rui ro tap trung lon.
+
+3. **Ban le hoa**: Ty le cho vay ca nhan tang tu 39.1% len 45.3%.
+
+--- insight\group09_investment_market.md ---
+1. **VAMC bonds**: 9 NH con nam giu trai phieu dac biet VAMC — no xau an chua xu ly xong.
+
+2. **TPDN**: 9 NH co ty trong TPDN >10% danh muc CK DT — rui ro tin dung doanh nghiep.
+
+3. **Su dung phai sinh**: 18 NH su dung cong cu phai sinh — quan tri rui ro tinh vi hon.
+
+--- insight\group10_capital_adequacy.md ---
+1. **Equity Ratio toan nganh**: Giam tu 8.87% den 8.77%.
+
+2. **Von mong**: 4 NH co Equity/TTS <6% — dem von mong, rui ro cao.
+
+3. **Phan hoa von**: Chenh lech Equity Ratio 11.44pp giua NH manh nhat va yeu nhat.
+
+--- insight\group11_alm.md ---
+1. **Cho vay dai han**: 4 NH co >40% cho vay dai han — rui ro lai suat cao khi huy dong chu yeu ngan han.
+
+2. **Maturity Gap**: 4 NH co gap duong (cho vay DH > TG co ky han) — ap luc tai cap von khi lai suat tang.
+
+3. **Phat hanh GTCG**: 20 NH co GTCG/TG >5% — dang keo dai ky han no de cai thien ALM.
+
+--- insight\group12_strategic_investments.md ---
+1. **Cong ty con**: 0 NH co dau tu cong ty con dang ke — chien luoc tap doan hoa (bao hiem, chung khoan, fintech).
+
+2. **Goodwill (M&A)**: 2 NH co goodwill — da thuc hien M&A, can theo doi rui ro suy giam gia tri.
+
+3. **TSCD vo hinh (IT proxy)**: 13 NH co ty le TS vo hinh tren median — co the phan anh dau tu cong nghe/phan mem.
+
+--- insight\group13_earnings_quality.md ---
+1. **Core Earnings**: PPOP chiem trung binh 159.4% LNTT — loi nhuan cot loi on dinh.
+
+2. **Thu nhap khong ben vung**: 6 NH co thu nhap khac >10% TOI — chat luong LN khong ben vung.
+
+3. **Thue suat thuc te**: 0 NH co thue suat thuc te <18% (thap hon danh nghia 20%) — co the do uu dai thue hoac chenh lech ke toan.
+
+4. **Thu hoi no xau**: 24 NH co thu hoi no/TOI >1% — hieu qua xu ly no xau tot, nhung cung phan anh no xau lich su lon.
+
+5. **Ap luc du phong**: 5 NH co du phong/PPOP >50% — loi nhuan goc tot nhung bi bao mon nghiem trong.

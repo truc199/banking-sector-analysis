@@ -1,0 +1,47 @@
+﻿Unnamed: 0,Unnamed: 1, ,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,[GEC | G'Contest 2026] ĐỀ VÒNG 2,,,,,,,,,
+,,,,,,,,,,,
+,,Mục lục,,,,,,,,,
+,,1,BalanceSheet,,,,,,,,
+,,2,IncomeStatement,,,,,,,,
+,,3,Note,,,,,,,,
+,,4,Mapping,,,,,,,,
+,,5,Macro data,,,,,,,,
+,,,,,,,,,,,
+,,"Mỗi đội thi nhận 01 file dữ liệu và đề bài, phân tích dữ liệu dựa trên yêu cầu đề bài.
+(bộ dữ liệu sẽ được đính kèm trong email gửi các đội thi)
+Đề bài: Ứng dụng Data Analytics để đánh giá hiệu quả hoạt động và tiềm năng tăng trưởng trong ngành Ngân hàng tại Việt Nam giai đoạn 2020-2024.
+Bối cảnh:
+Bạn là một Data Analyst làm việc tại một tổ chức tài chính, có nhiệm vụ phân tích dữ liệu để đánh giá hiệu quả hoạt động của các ngân hàng thương mại tại Việt Nam trong giai đoạn 2020–2024, thời kỳ chịu ảnh hưởng mạnh bởi COVID-19 và quá trình phục hồi hậu đại dịch.
+Mục tiêu của bạn là sử dụng các phương pháp phân tích dữ liệu để:
+- Phân loại hệ thống ngân hàng theo quy mô Tổng tài sản, Thu nhập hoạt động,...
+- Xác định các ngân hàng hoạt động kinh doanh hiệu quả và có tiềm năng tăng trưởng cao trong tương lai
+- Nhận diện các ngân hàng đang gặp vấn đề về hiệu quả kinh doanh hoặc rủi ro tài chính
+* Lưu ý: không phải doanh nghiệp nào cũng có đủ thông tin Thuyết minh BCTC (Note)",,,,,,,,,"Yêu cầu: Từ dữ liệu được cung cấp, hãy thực hiện báo cáo phân tích theo ba cấp độ:
+1. Phân tích mô tả
+- Trình bày bức tranh tổng quan về hiệu quả hoạt động kinh doanh của hệ thống Ngân hàng Việt Nam giai đoạn 2020-2024
+- Phân tích xu hướng biến động của các chỉ tiêu tài chính và hoạt động quan trọng như: Tổng tài sản, Tăng trưởng tín dụng, Lợi nhuận, ROA/ROE, NIM, CIR, Nợ xấu (NPL),...
+- So sánh hiệu suất hoạt động giữa các nhóm ngân hàng theo quy mô hoặc mô hình hoạt động (tiêu chí phân nhóm do đội thi tự lựa chọn).
+2. Phân tích nguyên nhân biến động của thu nhập
+- Phân tích các yếu tố ảnh hưởng đến tình hình kinh doanh theo giai đoạn.
+- Xác định những doanh nghiệp có dấu hiệu phục hồi nhanh sau COVID, tăng trưởng bền vững hoặc tiềm ẩn rủi ro tài chính
+3. Đề xuất giải pháp nâng cao hiệu quả hoạt động và quản trị rủi ro
+Dựa trên kết quả phân tích dữ liệu, hãy:
+- Đề xuất giải pháp giúp ngân hàng: 
++ Cải thiện khả năng sinh lời, 
++ Tối ưu hiệu quả sử dụng vốn, 
++ Kiểm soát chi phí vận hành, 
++ Nâng cao chất lượng tài sản,… 
+- Đề xuất định hướng phù hợp cho từng nhóm ngân hàng, ví dụ: 
++ Nhóm tăng trưởng nhanh 
++ Nhóm hoạt động ổn định 
++ Nhóm có dấu hiệu rủi ro hoặc suy giảm hiệu quả 
+- Đưa ra khuyến nghị liên quan đến: 
++ Tăng trưởng tín dụng, 
++ Quản trị nợ xấu, 
++ Chiến lược CASA, 
++ Chuyển đổi số, 
++ Hoặc tối ưu cấu trúc nguồn vốn,…"

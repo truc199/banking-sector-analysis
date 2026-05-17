@@ -1,0 +1,256 @@
+﻿Trường dữ liệu,Mô tả
+A1,TỔNG TÀI SẢN
+A2,"1. Tiền mặt, vàng bạc, đá quý"
+A3,2. Tiền gửi tại Ngân hàng nhà nước Việt Nam
+A4,3. Tiền gửi tại các TCTD khác và cho vay các TCTD khác
+A5,     Tiền gửi tại các TCTD khác
+A6,     Cho vay các TCTD khác
+A7,     Dự phòng rủi ro
+A8,4. Chứng khoán kinh doanh
+A9,     Chứng khoán kinh doanh
+A10,     Dự phòng giảm giá chứng khoán kinh doanh
+A11,5. Các công cụ tài chính phái sinh và các tài sản tài chính khác
+A12,6. Cho vay khách hàng
+A13,     Cho vay khách hàng
+A14,     Dự phòng rủi ro cho vay khách hàng
+A15,7. Hoạt động mua nợ
+A16,     Mua nợ
+A17,     Dự phòng rủi ro hoạt động mua nợ
+A18,8. Chứng khoán đầu tư
+A19,     Chứng khoán đầu tư sẵn sàng để bán
+A20,     Chứng khoán đầu tư giữ đến ngày đáo hạn
+A21,     Dự phòng giảm giá chứng khoán đầu tư
+A22,"9. Góp vốn, đầu tư dài hạn"
+A23,     Đầu tư vào công ty con
+A24,     Đầu tư vào công ty liên doanh
+A25,          Vốn Góp liên doanh
+A26,          Đầu tư vào công ty liên kết
+A27,     Đầu tư dài hạn khác
+A28,     Dự phòng giảm giá đầu tư dài hạn
+A29,10. Tài sản cố định
+A30,     Tài sản cố định hữu hình
+A31,          Nguyên giá TSCĐ
+A32,          Hao mòn TSCĐ
+A33,     Tài sản cố định thuê tài chính
+A34,          Nguyên giá TSCĐ
+A35,          Hao mòn TSCĐ
+A36,     Tài sản cố định vô hình
+A37,          Nguyên giá TSCĐ
+A38,          Hao mòn TSCĐ
+A39,11. Bất động sản đầu tư
+A40,     Nguyên giá TSCĐ
+A41,     Hao mòn TSCĐ
+A42,12. Tài sản Có khác
+A43,     Các khoản phải thu
+A44,"     Các khoản lãi, phí phải thu"
+A45,     Tài sản thuế TNDN hoãn lại
+A46,     Tài sản Có khác
+A47,     - Trong đó: Lợi thế thương mại
+A48,     Các khoản dự phòng rủi ro cho các tài sản Có nội bảng khác
+A49,NỢ PHẢI TRẢ VÀ VỐN CHỦ SỞ HỮU
+A50,Tổng nợ phải trả
+A51,     Các khoản nợ chính phủ và NHNN Việt Nam
+A52,     Tiền gửi và vay các Tổ chức tín dụng khác
+A53,          Tiền gửi của các tổ chức tín dụng khác
+A54,          Vay các tổ chức tín dụng khác
+A55,     Tiền gửi của khách hàng
+A56,     Các công cụ tài chính phái sinh và các khoản nợ tài chính khác
+A57,"     Vốn tài trợ, uỷ thác đầu tư của Chính phủ và các tổ chức tín dụng khác"
+A58,     Phát hành giấy tờ có giá
+A59,     Các khoản nợ khác
+A60,"          Các khoản lãi, phí phải trả"
+A61,          Thuế TNDN hoãn lại phải trả
+A62,          Các khoản phải trả và công nợ khác
+A63,          Dự phòng rủi ro khác
+A64,Vốn chủ sở hữu
+A65,     Vốn của tổ chức tín dụng
+A66,          Vốn điều lệ
+A67,          Vốn đầu tư XDCB
+A68,          Thặng dư vốn cổ phần
+A69,          Cổ phiếu Quỹ
+A70,          Cổ phiếu ưu đãi
+A71,          Vốn khác
+A72,Quỹ của tổ chức tín dụng
+A73,Chênh lệch tỷ giá hối đoái
+A74,Chênh lệch đánh giá lại tài sản
+A75,Lợi nhuận chưa phân phối
+A76,Lợi ích của cổ đông thiểu số
+B1,Thu nhập lãi và các khoản thu nhập tương tự
+B2,Chi phí lãi và các chi phí tương tự
+B3,Thu nhập lãi thuần
+B4,     Thu nhập từ hoạt động dịch vụ
+B5,     Chi phí hoạt động dịch vụ
+B6,Lãi/Lỗ thuần từ hoạt động dịch vụ
+B7,Lãi/(lỗ) thuần từ hoạy động kinh doanh ngoại hối và vàng
+B8,Lãi/(lỗ) thuần từ mua bán chứng khoán kinh doanh
+B9,Lãi/(lỗ) thuần từ mua bán chứng khoán đầu tư
+B10,     Thu nhập từ hoạt động khác
+B11,     Chi phí hoạt động khác
+B12,Lãi/(lỗ) thuần từ hoạt động khác
+B13,"Thu nhập từ góp vốn, mua cổ phần"
+B14,Tổng thu nhập hoạt động
+B15,Chi phí hoạt động
+B16,LN thuần từ hoạt động kinh doanh trước CF dự phòng rủi ro tín dụng
+B17,Chi phí dự phòng rủi ro tín dụng
+B18,Tổng lợi nhuận trước thuế
+B19,     Chi phí thuế TNDN hiện hành
+B20,     Chi phí thuế TNDN hoãn lại
+B21,Chi phí thuế thu nhập doanh nghiệp
+B22,Lợi nhuận sau thuế
+B23,Lợi ích của cổ đông thiểu số
+B24,Cổ đông của Công ty mẹ
+C1,1. Chứng khoán kinh doanh
+C2,     Chứng khoán nợ
+C3,     Chứng khoán vốn
+C4,2. Các khoản cho vay phân theo ngành
+C5,     Thương mại
+C6,     Nông nghiệp và lâm nghiệp
+C7,     Sản xuất
+C8,"          Công nghiệp chế biến, chế tạo"
+C9,"          Sản xuất và phân phối điện, khí đốt và nước nóng, hơi nước và điều hòa không khí"
+C10,"          Cung cấp nước, quản lý và xử lý rác thải, nước thải"
+C11,          Khai khoáng
+C12,     Xây dựng
+C13,     Dịch vụ cộng đồng và cá nhân
+C14,          Hoạt động phục vụ cá nhân và cộng đồng
+C15,          Hoạt động các tổ chức và đoàn thể quốc tế
+C16,          Y tế và hoạt động cứu trợ xã hội
+C17,"          Nghệ thuật, vui chơi, giải trí"
+C18,          Hoạt động hành chính và các dịch vụ hỗ trợ
+C19,"          Hoạt động của Đảng, tổ chức chính trị xã hội, quản lý nhà nước, an ninh quốc phòng, bảo đảm XH bắt buộc"
+C20,"          Hoạt động làm thuê các công việc trong các hộ gia đình, sản xuất vật chất và dịch vụ tự tiêu dùng của hộ gia đình"
+C21,          Hoạt động dịch vụ khác
+C22,"     Kho bãi,vận tải, viễn thông"
+C23,"          Vận tải, kho bãi"
+C24,          Thông tin và truyền thông
+C25,     Giáo dục và đào tạo
+C26,          Giáo dục và đào tạo
+C27,"          Hoạt động chuyên môn, khoa học và công nghệ"
+C28,     Bất động sản và tư vấn
+C29,     Khách sạn và nhà hàng
+C30,     Dịch vụ tài chính
+C31,     Các ngành khác
+C32,3. Các khoản cho vay phân loại theo chất lượng nợ cho vay
+C33,     Nợ đủ tiêu chuẩn
+C34,     Nợ cần chú ý
+C35,     Nợ dưới tiêu chuẩn
+C36,     Nợ nghi ngờ
+C37,     Nợ xấu có khả năng mất vốn
+C38,4. Các khoản cho vay phân theo thời gian
+C39,     Cho vay ngắn hạn
+C40,     Cho vay trung hạn
+C41,     Cho vay  dài hạn
+C42,5. Các khoản cho vay phân theo nhóm khách hàng
+C43,     Doanh nghiệp nhà nước
+C44,     Công ty TNHH và cổ phần
+C45,     Doanh nghiệp nước ngoài
+C46,     Hợp tác xã và công ty tư nhân
+C47,     Cá nhân
+C48,     Khác
+C49,6. Chứng khoán đầu tư
+C50,     6A. Chứng khoán đầu tư sẵn sàng để bán
+C51,          Chứng khoán Nợ
+C52,               Trái phiếu Chính phủ
+C53,               Trái phiếu do chính phủ bảo lãnh
+C54,               Trái phiếu do các TCTD khác trong nước phát hành
+C55,               Trái phiếu do các TCKT trong nước phát hành
+C56,          Chứng khoán Vốn
+C57,          Dự phòng rủi ro chứng khoán sẵn sàng để bán
+C58,     6B. Chứng khoán đầu tư giữ đến ngày đáo hạn
+C59,          Chứng khoán nợ
+C60,               Trái phiếu Chính phủ
+C61,               Trái phiếu do chính phủ bảo lãnh
+C62,               Trái phiếu do các TCTD khác trong nước phát hành
+C63,               Trái phiếu do các TCKT trong nước phát hành
+C64,               Trái phiếu đặc biệt do VAMC phát hành
+C65,          Dự phòng rủi ro chứng khoán đầu tư giữ đến ngày đáo hạn
+C66,               Dự phòng trái phiếu đặc biệt
+C67,7. Các khoản tiền gửi phân loại theo loại tiền gửi
+C68,     Tiền gửi không kỳ hạn
+C69,     Tiền gửi có kỳ hạn
+C70,     Tiền gửi tiết kiệm
+C71,     Tiền gửi ký quỹ
+C72,     Tiền gửi cho những mục đích riêng biệt
+C73,8. Các khoản tiền gửi phân theo nhóm khách hàng
+C74,     Doanh nghiệp nhà nước
+C75,     Doanh nghiệp tư nhân
+C76,     Doanh nghiệp nước ngoài
+C77,     Cá nhân
+C78,     Khác
+C79,9. Thu nhập lãi và các khoản thu nhập tương tự
+C80,     Thu nhập lãi cho vay khách hàng
+C81,     Thu nhập lãi tiền gửi
+C82,"     Thu lãi từ kinh doanh, đầu tư chứng khoán nợ:"
+C83,          Thu lãi từ chứng khoán kinh doanh
+C84,          Thu lãi từ chứng khoán đầu tư
+C85,     Thu nhập lãi cho thuê tài chính
+C86,     Thu khác từ hoạt động tín dụng
+C87,10. Chi phí lãi và các chi phí tương tự
+C88,     Trả lãi tiền gửi
+C89,     Trả lãi tiền vay
+C90,     Trả lãi phát hành trái phiếu và giấy tờ có giá
+C91,     Chi phí khác cho hoạt động tín dụng
+C92,11. Lãi thuần từ hoạt động dịch vụ
+C93,     Thu từ dịch vụ thanh toán
+C94,     Thu từ dịch vụ ngân quỹ
+C95,     Thu từ nghiệp vụ bảo lãnh
+C96,     Thu từ nghiệp vụ ủy thác và đại lý
+C97,     Thu từ hoạt động bảo hiểm
+C98,     Thu từ dịch vụ môi giới
+C99,     Thu khác
+C100,     Chi về dịch vụ thanh toán
+C101,     Chi về dịch vụ ngân quỹ
+C102,     Chi về dịch vụ viễn thông
+C103,     Chi về nghiệp vụ ủy thác và đại lý
+C104,     Chi từ hoạt động bảo hiểm
+C105,     Chi từ dịch vụ môi giới
+C106,     Chi khác
+C107,12. Lãi thuần từ hoạt động kinh doanh vàng và ngoại hối
+C108,     Thu từ kinh doanh ngoại tệ giao ngay
+C109,     Thu từ các công cụ tài chính phái sinh tiền tệ
+C110,     Thu từ giao dịch kinh doanh vàng
+C111,     Lãi chênh lệch tỷ giá ngoại tệ kinh doanh
+C112,     Chi về kinh doanh ngoại tệ giao ngay
+C113,     Chi về các công cụ tài chính phái sinh tiền tệ
+C114,     Chi về  giao dịch kinh doanh vàng
+C115,     Lỗ chênh lệch tỷ giá ngoại tệ kinh doanh
+C116,13. Lãi thuần từ mua bán chứng khoán kinh doanh
+C117,     Thu nhập từ mua bán chứng khoán kinh doanh
+C118,     Chi phí về mua bán chứng khoán kinh doanh
+C119,     Hoàn nhập dự phòng giảm giá chứng khoán kinh doanh
+C120,14. Lãi thuần từ mua bán chứng khoán đầu tư
+C121,     Thu nhập từ mua bán chứng khoán đầu tư
+C122,     Lãi từ thanh lý các khoản đầu tư dài hạn khác
+C123,     Chi phí về mua bán chứng khoán đầu tư
+C124,     Lỗ do thanh lý các khoản đầu tư dài hạn khác
+C125,     Hoàn nhập dự phòng giảm giá chứng khoán đầu tư sẵn sàng để bán
+C126,     Hoàn nhập dự phòng giảm giá chứng khoán đầu tư giữ đến ngày đáo hạn
+C127,15. Lãi thuần từ hoạt động khác
+C128,     Thu nhập từ các khoản cho vay đã xử lý bằng quỹ dự phòng rủi ro
+C129,     Thu từ thanh lý tài sản cố định
+C130,     Thu từ nghiệp vụ mua bán nợ
+C131,     Thu về nghiệp vụ tất toán Trái phiếu VAMC
+C132,     Thu nhập về các công cụ tài chính phái sinh khác
+C133,     Thu nhập khác
+C134,     Chi phí cho nghiệp vụ hoán đổi lãi suất
+C135,     Chi từ thanh lý tài sản
+C136,     Chi về nghiệp vụ bán nợ
+C137,     Chi về các công cụ tài chính phái sinh khác
+C138,     Chi công tác xã hội
+C139,     Chi phí khác
+C140,16. Chi phí hoạt động
+C141,"     Chi nộp thuế và các khoản phí, lệ phí"
+C142,     Chi phí cho nhân viên
+C143,          Chi lương và phụ cấp
+C144,          Các khoản chi đóng góp theo lương
+C145,          Chi trợ cấp
+C146,          Chi công tác xã hội
+C147,          Chi khác
+C148,     Chi về tài sản
+C149,          Chi Khấu hao TSCĐ
+C150,          Chi khác về tài sản
+C151,     Chi cho hoạt động quản lý công vụ
+C152,"     Chi nộp phí bảo hiểm, bảo toàn tiền gửi của khách hàng"
+C153,     Chi phí dự phòng giảm giá các khoản đầu tư dài hạn và dự phòng nợ khó đòi
+C154,     Chi dự phòng trợ cấp thôi việc
+C155,     Chi phí hoạt động khác

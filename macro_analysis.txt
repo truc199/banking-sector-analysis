@@ -1,0 +1,19 @@
+=== GDP Growth (YTD YOY) ===
+Year
+2020   NaN
+2021   NaN
+2022   NaN
+2023   NaN
+2024   NaN
+
+=== FDI Thuc Hien (Trieu USD) ===
+{'2020': 19980.0, '2021': 19740.0, '2022': 22400.0, '2023': 23183.0, '2024': 25351.0}
+
+=== PMI Vietnam (Average) ===
+Year
+2022    48.133333
+2023    48.266667
+2024    51.008333
+2025    49.566667
+FX error: 'USDVND VN Curncy'
+Monetary error: 'Date'
