@@ -16,7 +16,7 @@
 
 ### Slide 0.1 — Title & Hook
 - **Tiêu đề gợi cảm xúc**, ví dụ: *"Ngành ngân hàng Việt Nam 2020-2024: Vượt bão nợ xấu, tìm kiếm động lực tăng trưởng mới"*
-- **Hook bằng Data**: Kinh tế vĩ mô phục hồi mạnh mẽ (GDP từ 2.91% lên 7.09%, FDI đạt đỉnh 25 tỷ USD). Lợi nhuận cốt lõi vẫn ổn định, nhưng rủi ro nợ xấu hiện hữu rõ nét (NPL tăng từ 1.74% năm 2020 lên 2.87% năm 2024) và áp lực thanh khoản ngày càng lớn (LDR toàn ngành vọt lên 104.87%).
+- **Hook bằng Data**: Kinh tế vĩ mô phục hồi m ạnh mẽ (GDP từ 2.91% lên 7.09%, FDI đạt đỉnh 25 tỷ USD). Lợi nhuận cốt lõi vẫn ổn định, nhưng rủi ro nợ xấu hiện hữu rõ nét (NPL tăng từ 1.74% năm 2020 lên 2.87% năm 2024) và áp lực thanh khoản ngày càng lớn (LDR toàn ngành vọt lên 104.87%).
 
 ### Slide 0.2 — Agenda / Roadmap
 - Visual roadmap 3 phần chính (mô tả → nguyên nhân → giải pháp)
