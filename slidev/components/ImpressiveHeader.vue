@@ -29,7 +29,7 @@
     </header>
 
     <!-- Main Content Area -->
-    <main class="flex-grow px-6 py-0 overflow-auto relative z-10 text-[12px]">
+    <main class="flex-grow px-6 py-0 overflow-hidden relative z-10 text-[12px]">
       <slot />
     </main>
 

@@ -990,15 +990,15 @@ transition: slide-left
     <div class="text-justify text-[9.0px] leading-[1.2] text-slate-600 font-medium ">
       <p>
         <strong class="text-[#003366] text-[10px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">1. Vĩ mô tươi sáng & Sản xuất mở rộng</strong>
-        Bước sang năm 2024, nền kinh tế vĩ mô Việt Nam chứng kiến sự phục hồi vững chắc. Tốc độ tăng trưởng GDP thực tế đạt mức ấn tượng <span class="font-bold text-[#003366]">7.09%</span>, chỉ số nhà quản trị mua hàng PMI sản xuất lấy lại đà mở rộng và duy trì ổn định ở mức <span class="font-bold">> 51.0</span> (bình quan cả năm đạt <span class="font-bold">51.8</span>).
+        Bước sang năm 2024, kinh tế vĩ mô phục hồi vững chắc với tăng trưởng GDP thực tế đạt <span class="font-bold text-[#003366]">7.09%</span>. Chỉ số PMI sản xuất duy trì đà mở rộng trên <span class="font-bold">> 51.0</span> (bình quân cả năm đạt <span class="font-bold">51.8</span>).
       </p>
       <p class="mt-2.5">
         <strong class="text-[#0D9488] text-[10px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">2. Dòng vốn FDI lập kỷ lục lịch sử</strong>
-        Niềm tin của các nhà đầu tư nước ngoài được củng cố mạnh mẽ khi dòng vốn FDI thực hiện đạt kỷ lục mới với <span class="font-bold text-[#0D9488]">25.4 tỷ USD</span>. Hoạt động xuất nhập khẩu cũng hồi phục mạnh mẽ, củng cố đà tăng trưởng chung của toàn bộ nền kinh tế thực.
+        Dòng vốn FDI thực hiện đạt kỷ lục mới <span class="font-bold text-[#0D9488]">25.4 tỷ USD</span> nhờ niềm tin vững chắc từ các nhà đầu tư ngoại. Hoạt động xuất nhập khẩu cũng hồi phục mạnh, củng cố đà tăng trưởng của nền kinh tế thực.
       </p>
       <p class="mt-2.5">
         <strong class="text-[#C0392B] text-[10px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">3. Vết thương ngân hàng ngấm đòn nợ xấu</strong>
-        Trái ngược hoàn toàn với gam màu tươi sáng của vĩ mô, hệ thống ngân hàng lại bước vào thời kỳ suy giảm lợi nhuận nghiêm trọng với tỷ suất ROA toàn ngành sụt giảm mạnh về mức đáy <span class="font-bold text-[#C0392B]">1.12%</span> (hoặc bình quan số học giảm về <span class="font-bold text-[#C0392B]">1.04%</span>). Nguyên nhân không đến từ các biến động tức thời của năm 2024, mà là hệ quả của chu kỳ nợ xấu dồn nén từ 4 năm trước (2020-2023) bắt đầu "ngấm" và phản ánh đầy đủ lên bảng cân đối kế toán thông qua gánh nặng chi phí trích lập dự phòng.
+        Trái ngược với đà phục hồi vĩ mô, ROA toàn ngành chạm đáy <span class="font-bold text-[#C0392B]">1.12%</span> (bình quân số học <span class="font-bold text-[#C0392B]">1.04%</span>). Đây là hệ quả trì hoãn của chu kỳ nợ xấu dồn nén từ 2020–2023, bắt đầu ngấm sâu và phản ánh đầy đủ lên bảng cân đối kế toán qua áp lực trích lập dự phòng.
       </p>
     </div>
   </div>
@@ -1072,15 +1072,15 @@ transition: slide-left
     <div class="text-justify text-[8.5px] leading-[1.15] text-slate-600 font-medium ">
       <p>
         <strong class="text-[#003366] text-[9.5px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">1. Động cơ tăng trưởng phi tín dụng</strong>
-        Trong bối cảnh biên lãi thuần (NIM) truyền thống bị nén chặt và dư nợ tín dụng chịu rủi ro trích lập dự phòng cao, hoạt động đa dạng hóa thu nhập ngoài lãi trở thành động cơ tăng trưởng thứ hai cực kỳ quan trọng cho các ngân hàng.
+        Khi biên lãi thuần (NIM) bị nén và rủi ro tín dụng tăng cao, đa dạng hóa thu nhập ngoài lãi trở thành động cơ tăng trưởng thứ hai quan trọng của các ngân hàng.
       </p>
       <p class="mt-2">
-        <strong class="text-[#0D9488] text-[9.5px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">2. Tương quan dương mạnh mẽ với ROA</strong>
-        Hệ số tương quan <span class="font-bold text-[#0D9488]">Fee Ratio ↔ ROA đạt r = +0.551</span> trên toàn hệ thống (và đạt tới <span class="font-bold text-[#0D9488]">r = +0.672</span> đối với tỷ lệ Fee/TOI khi loại trừ ngân hàng yếu kém NH22). Đây là tương quan dương mạnh nhất toàn ngành bên cạnh yếu tố nợ xấu NPL.
+        <strong class="text-[#0D9488] text-[9.5px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">2. Tương quan thuận mạnh mẽ với ROA</strong>
+        Tương quan <span class="font-bold text-[#0D9488]">Fee Ratio ↔ ROA đạt r = +0.551</span> toàn hệ thống (đạt <span class="font-bold text-[#0D9488]">r = +0.672</span> nếu loại trừ ngân hàng yếu kém NH22). Đây là tương quan thuận mạnh nhất toàn ngành chỉ sau yếu tố nợ xấu NPL.
       </p>
       <p class="mt-2">
         <strong class="text-[#003366] text-[9.5px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">3. Phao cứu sinh từ chuyển đổi số & bảo hiểm</strong>
-        Các ngân hàng có tỷ trọng ngoài lãi cao nhờ thành công trong mảng Bancassurance chuyên sâu (15 NH) và Chuyển đổi số thanh toán bán lẻ (13 NH) đã duy trì được mức ROA vượt trội bất chấp giông bão tín dụng. Điển hình là <span class="font-bold text-[#0D9488]">NH7</span> và <span class="font-bold text-[#0D9488]">NH4</span> duy trì ROA đứng đầu hệ thống.
+        Nhờ thành công từ Bancassurance chuyên sâu (15 ngân hàng) và chuyển đổi số thanh toán bán lẻ (13 ngân hàng), các đơn vị có tỷ trọng thu nhập ngoài lãi cao duy trì ROA vượt trội. Điển hình là <span class="font-bold text-[#0D9488]">NH7</span> và <span class="font-bold text-[#0D9488]">NH4</span> duy trì vị thế dẫn đầu về ROA toàn ngành.
       </p>
     </div>
   </div>
