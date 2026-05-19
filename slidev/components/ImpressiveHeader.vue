@@ -49,7 +49,7 @@
         <slot name="footer-left">Bao cao phan tich</slot>
       </div>
       <div class="text-gray-400 text-[10px] font-medium">
-        <SlideCurrentNo /> / <SlideTotal />
+        <SlideCurrentNo /> / <SlidesTotal />
       </div>
     </footer>
   </div>
