@@ -1033,7 +1033,7 @@ transition: slide-left
 <div class="grid grid-cols-12 gap-x-4 mt-2 text-slate-700">
   <!-- CỘT TRÁI (col-span-5) -->
   <div class="col-span-5 flex flex-col justify-start h-[390px] pr-2 pt-1">
-    <div class="text-justify text-[9.5px] leading-[1.3] text-slate-600 font-medium">
+    <div class="text-justify text-[8.5px] leading-[1.15] text-slate-600 font-medium ">
       <p>
         <strong class="text-[#003366] text-[10px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">1. Lợi nhuận phục hồi kém bền vững</strong>
         Mặc dù ROA trung bình toàn ngành tăng nhẹ lên <span class="font-bold">1.36%</span> nhờ tín dụng tăng nóng đầu giai đoạn, chất lượng lợi nhuận lại vô cùng kém bền vững. Có tới <span class="font-bold text-[#003366]">23/27 ngân hàng</span> phải dựa vào nguồn thu hồi nợ ngoại bảng bất thường (đóng góp <span class="font-bold">> 1% TOI</span>) để làm đẹp sổ sách trong bối cảnh biên lãi thuần bị bóp nghẹt do CoF tăng vọt.
@@ -1107,15 +1107,15 @@ transition: slide-left
     <div class="text-justify text-[9.0px] leading-[1.2] text-slate-600 font-medium ">
       <p>
         <strong class="text-[#003366] text-[10px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">1. Vĩ mô tươi sáng & Sản xuất mở rộng</strong>
-        Bước sang năm 2024, nền kinh tế vĩ mô Việt Nam chứng kiến sự phục hồi vững chắc. Tốc độ tăng trưởng GDP thực tế đạt mức ấn tượng <span class="font-bold text-[#003366]">7.09%</span>, chỉ số nhà quản trị mua hàng PMI sản xuất lấy lại đà mở rộng và duy trì ổn định ở mức <span class="font-bold">> 51.0</span> (bình quan cả năm đạt <span class="font-bold">51.8</span>).
+        Bước sang năm 2024, kinh tế vĩ mô phục hồi vững chắc với tăng trưởng GDP thực tế đạt <span class="font-bold text-[#003366]">7.09%</span>. Chỉ số PMI sản xuất duy trì đà mở rộng trên <span class="font-bold">> 51.0</span> (bình quân cả năm đạt <span class="font-bold">51.8</span>).
       </p>
       <p class="mt-2.5">
         <strong class="text-[#0D9488] text-[10px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">2. Dòng vốn FDI lập kỷ lục lịch sử</strong>
-        Niềm tin của các nhà đầu tư nước ngoài được củng cố mạnh mẽ khi dòng vốn FDI thực hiện đạt kỷ lục mới với <span class="font-bold text-[#0D9488]">25.4 tỷ USD</span>. Hoạt động xuất nhập khẩu cũng hồi phục mạnh mẽ, củng cố đà tăng trưởng chung của toàn bộ nền kinh tế thực.
+        Dòng vốn FDI thực hiện đạt kỷ lục mới <span class="font-bold text-[#0D9488]">25.4 tỷ USD</span> nhờ niềm tin vững chắc từ các nhà đầu tư ngoại. Hoạt động xuất nhập khẩu cũng hồi phục mạnh, củng cố đà tăng trưởng của nền kinh tế thực.
       </p>
       <p class="mt-2.5">
         <strong class="text-[#C0392B] text-[10px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">3. Vết thương ngân hàng ngấm đòn nợ xấu</strong>
-        Trái ngược hoàn toàn với gam màu tươi sáng của vĩ mô, hệ thống ngân hàng lại bước vào thời kỳ suy giảm lợi nhuận nghiêm trọng với tỷ suất ROA toàn ngành sụt giảm mạnh về mức đáy <span class="font-bold text-[#C0392B]">1.12%</span> (hoặc bình quan số học giảm về <span class="font-bold text-[#C0392B]">1.04%</span>). Nguyên nhân không đến từ các biến động tức thời của năm 2024, mà là hệ quả của chu kỳ nợ xấu dồn nén từ 4 năm trước (2020-2023) bắt đầu "ngấm" và phản ánh đầy đủ lên bảng cân đối kế toán thông qua gánh nặng chi phí trích lập dự phòng.
+        Trái ngược với đà phục hồi vĩ mô, ROA toàn ngành chạm đáy <span class="font-bold text-[#C0392B]">1.12%</span> (bình quân số học <span class="font-bold text-[#C0392B]">1.04%</span>). Đây là hệ quả trì hoãn của chu kỳ nợ xấu dồn nén từ 2020–2023, bắt đầu ngấm sâu và phản ánh đầy đủ lên bảng cân đối kế toán qua áp lực trích lập dự phòng.
       </p>
     </div>
   </div>
@@ -1143,8 +1143,8 @@ transition: slide-left
 <div class="grid grid-cols-12 gap-x-4 mt-2 text-slate-700">
   <!-- CỘT TRÁI (col-span-5) -->
   <div class="col-span-5 flex flex-col justify-start h-[390px] pr-2 pt-1">
-    <div class="text-justify text-[9.5px] leading-[1.3] text-slate-600 font-medium">
-      <p class="mb-2 font-semibold text-slate-800 text-[10px]">
+    <div class="text-justify text-[8.2px] leading-[1.12] text-slate-600 font-medium ">
+      <p class="mb-1.5 font-semibold text-slate-800 text-[8.6px]">
         Dữ liệu thực chứng năm 2024 chỉ ra một sự dịch chuyển cấu trúc quyền lực cực kỳ rõ nét giữa các biến số chi phối hiệu quả hoạt động ngân hàng.
       </p>
       <p>
@@ -1216,15 +1216,15 @@ transition: slide-left
     <div class="text-justify text-[8.5px] leading-[1.15] text-slate-600 font-medium ">
       <p>
         <strong class="text-[#003366] text-[9.5px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">1. Động cơ tăng trưởng phi tín dụng</strong>
-        Trong bối cảnh biên lãi thuần (NIM) truyền thống bị nén chặt và dư nợ tín dụng chịu rủi ro trích lập dự phòng cao, hoạt động đa dạng hóa thu nhập ngoài lãi trở thành động cơ tăng trưởng thứ hai cực kỳ quan trọng cho các ngân hàng.
+        Khi biên lãi thuần (NIM) bị nén và rủi ro tín dụng tăng cao, đa dạng hóa thu nhập ngoài lãi trở thành động cơ tăng trưởng thứ hai quan trọng của các ngân hàng.
       </p>
       <p class="mt-2">
-        <strong class="text-[#0D9488] text-[9.5px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">2. Tương quan dương mạnh mẽ với ROA</strong>
-        Hệ số tương quan <span class="font-bold text-[#0D9488]">Fee Ratio ↔ ROA đạt r = +0.551</span> trên toàn hệ thống (và đạt tới <span class="font-bold text-[#0D9488]">r = +0.672</span> đối với tỷ lệ Fee/TOI khi loại trừ ngân hàng yếu kém NH22). Đây là tương quan dương mạnh nhất toàn ngành bên cạnh yếu tố nợ xấu NPL.
+        <strong class="text-[#0D9488] text-[9.5px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">2. Tương quan thuận mạnh mẽ với ROA</strong>
+        Tương quan <span class="font-bold text-[#0D9488]">Fee Ratio ↔ ROA đạt r = +0.551</span> toàn hệ thống (đạt <span class="font-bold text-[#0D9488]">r = +0.672</span> nếu loại trừ ngân hàng yếu kém NH22). Đây là tương quan thuận mạnh nhất toàn ngành chỉ sau yếu tố nợ xấu NPL.
       </p>
       <p class="mt-2">
         <strong class="text-[#003366] text-[9.5px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">3. Phao cứu sinh từ chuyển đổi số & bảo hiểm</strong>
-        Các ngân hàng có tỷ trọng ngoài lãi cao nhờ thành công trong mảng Bancassurance chuyên sâu (15 NH) và Chuyển đổi số thanh toán bán lẻ (13 NH) đã duy trì được mức ROA vượt trội bất chấp giông bão tín dụng. Điển hình là <span class="font-bold text-[#0D9488]">NH7</span> và <span class="font-bold text-[#0D9488]">NH4</span> duy trì ROA đứng đầu hệ thống.
+        Nhờ thành công từ Bancassurance chuyên sâu (15 ngân hàng) và chuyển đổi số thanh toán bán lẻ (13 ngân hàng), các đơn vị có tỷ trọng thu nhập ngoài lãi cao duy trì ROA vượt trội. Điển hình là <span class="font-bold text-[#0D9488]">NH7</span> và <span class="font-bold text-[#0D9488]">NH4</span> duy trì vị thế dẫn đầu về ROA toàn ngành.
       </p>
     </div>
   </div>
@@ -1252,7 +1252,7 @@ transition: slide-left
 <div class="grid grid-cols-12 gap-x-4 mt-2 text-slate-700">
   <!-- CỘT TRÁI (col-span-5) -->
   <div class="col-span-5 flex flex-col justify-start h-[390px] pr-2 pt-1">
-    <div class="text-justify text-[9.5px] leading-[1.3] text-slate-600 font-medium">
+    <div class="text-justify text-[8.2px] leading-[1.12] text-slate-600 font-medium ">
       <p>
         <strong class="text-[#E67E22] text-[10px] uppercase border-b border-slate-300 pb-0.5 mb-1 block">1. Phân hóa ROE cực đại do di chứng nợ xấu</strong>
         Nghịch lý đòn bẩy trong khủng hoảng tín dụng bộc lộ rõ nét nhất ở giai đoạn này:
@@ -1364,11 +1364,11 @@ transition: slide-left
             <div class="text-[8.5px] text-slate-500 font-semibold">Đại diện: NH 4, NH 2</div>
           </td>
           <td class="py-2 px-3 align-top text-justify">
-            Luôn vững vàng tại vị trí cụm <span class="text-[#0D9488] font-bold">🟢 (Ngôi sao)</span> hoặc <span class="text-[#003366] font-bold">🔵 (Ổn định)</span> xuyên suốt 3 giai đoạn bất chấp stress test. Nhóm này hội tụ đủ <strong class="text-slate-800">3 "gene" bền vững</strong>:
+            Vững vàng tại cụm <span class="text-[#0D9488] font-bold">🟢 (Ngôi sao)</span> hoặc <span class="text-[#003366] font-bold">🔵 (Ổn định)</span> qua 3 giai đoạn nhờ sở hữu <strong class="text-slate-800">3 "gene" bền vững</strong>:
             <ul class="list-disc pl-4 mt-0.5 space-y-0 text-slate-600">
-              <li><strong class="text-slate-700">Giá vốn siêu rẻ:</strong> Đệm CASA dày giúp tối ưu chi phí huy động vốn (CoF của <span class="font-bold text-[#0D9488]">NH 4 chỉ ~0.87%</span>, danh nghĩa <span class="font-bold text-[#0D9488]">~2.8%</span>).</li>
-              <li><strong class="text-slate-700">Đệm an toàn vốn vững chắc:</strong> Tỷ lệ an toàn vốn (Equity Ratio) duy trì ở mức cao vượt trội (<span class="font-bold text-[#003366]">>10%</span> ở nhóm đầu).</li>
-              <li><strong class="text-slate-700">Phòng vệ rủi ro tuyệt đối:</strong> Trích lập dự phòng nghiêm ngặt, tỷ lệ bao phủ nợ xấu (LLR Coverage) 2024 của <span class="font-bold text-[#0D9488]">NH 4 đạt 223.31%</span> và <span class="font-bold text-[#0D9488]">NH 2 đạt 174.68%</span>.</li>
+              <li><strong class="text-slate-700">Giá vốn rẻ:</strong> Đệm CASA dày giúp tối ưu chi phí huy động (CoF của <span class="font-bold text-[#0D9488]">NH 4 chỉ ~0.87%</span>, danh nghĩa <span class="font-bold text-[#0D9488]">~2.8%</span>).</li>
+              <li><strong class="text-slate-700">Đệm vốn vững chắc:</strong> Tỷ lệ an toàn vốn (Equity Ratio) duy trì ở mức cao vượt trội (<span class="font-bold text-[#003366]">>10%</span>).</li>
+              <li><strong class="text-slate-700">Phòng vệ rủi ro cao:</strong> Trích lập nghiêm ngặt, tỷ lệ bao phủ nợ xấu 2024 của <span class="font-bold text-[#0D9488]">NH 4 đạt 223.31%</span>, <span class="font-bold text-[#0D9488]">NH 2 đạt 174.68%</span>.</li>
             </ul>
           </td>
         </tr>
@@ -1382,11 +1382,11 @@ transition: slide-left
             <div class="text-[8.5px] text-slate-500 font-semibold">Đại diện: NH 1, NH 2</div>
           </td>
           <td class="py-2 px-3 align-top text-justify">
-            Bứt phá tích cực từ cụm <span class="text-[#C0392B] font-bold">🔴 (Cần giám sát)</span> hoặc cụm <span class="text-[#E67E22] font-bold">🟡 (Chuyển đổi)</span> ở GĐ1 vươn lên cụm <span class="text-[#003366] font-bold">🔵/🟢 (Ổn định/Ngôi sao)</span> ở GĐ3 nhờ xoay trục chiến lược quyết liệt:
+            Bứt phá từ cụm <span class="text-[#C0392B] font-bold">🔴 (Cần giám sát)</span> / <span class="text-[#E67E22] font-bold">🟡 (Chuyển đổi)</span> ở GĐ1 lên cụm <span class="text-[#003366] font-bold">🔵/🟢 (Ổn định/Ngôi sao)</span> ở GĐ3 nhờ xoay trục chiến lược quyết liệt:
             <ul class="list-disc pl-4 mt-0.5 space-y-0 text-slate-600">
-              <li><strong class="text-slate-700">Cơ cấu lại nguồn vốn:</strong> Siết chặt tín dụng rủi ro cao (BĐS, trái phiếu doanh nghiệp) và kéo mạnh tệp CASA cá nhân.</li>
-              <li><strong class="text-slate-700">Tối ưu opex triệt để:</strong> Cắt giảm dứt điểm chi phí hoạt động, hạ tỷ lệ CIR từ mức <span class="font-bold text-[#E67E22]">>45%</span> xuống vùng tối ưu <span class="font-bold text-[#0D9488]">~30%</span>.</li>
-              <li><strong class="text-slate-700">Dọn sạch tài sản tồn đọng:</strong> Quyết liệt xử lý và xóa hoàn toàn nợ xấu trái phiếu VAMC để làm sạch bảng cân đối.</li>
+              <li><strong class="text-slate-700">Cơ cấu nguồn vốn:</strong> Siết tín dụng rủi ro cao (BĐS, trái phiếu doanh nghiệp) và tập trung kéo mạnh CASA cá nhân.</li>
+              <li><strong class="text-slate-700">Tối ưu chi phí:</strong> Cắt giảm chi phí hoạt động, hạ nhanh tỷ lệ CIR từ <span class="font-bold text-[#E67E22]">>45%</span> xuống vùng tối ưu <span class="font-bold text-[#0D9488]">~30%</span>.</li>
+              <li><strong class="text-slate-700">Làm sạch bảng cân đối:</strong> Quyết liệt xử lý và tất toán toàn bộ nợ xấu tại trái phiếu VAMC.</li>
             </ul>
           </td>
         </tr>
@@ -1400,11 +1400,11 @@ transition: slide-left
             <div class="text-[8.5px] text-slate-500 font-semibold">Đại diện: NH 22, NH 8</div>
           </td>
           <td class="py-2 px-3 align-top text-justify">
-            Trượt dài từ nhóm dẫn đầu xuống bị cô lập tại cụm rủi ro <span class="text-[#C0392B] font-bold">🔴 (Cần giám sát)</span> do vi phạm kỷ luật vốn và khẩu vị rủi ro quá lớn:
+            Trượt xuống cụm rủi ro <span class="text-[#C0392B] font-bold">🔴 (Cần giám sát)</span> do vi phạm kỷ luật vốn và khẩu vị rủi ro quá lớn:
             <ul class="list-disc pl-4 mt-0.5 space-y-0 text-slate-600">
-              <li><strong class="text-slate-700">Tăng trưởng tín dụng nóng:</strong> Tập trung cho vay các dự án BĐS lớn, đẩy tỷ lệ thanh khoản LDR vượt trần an toàn <span class="font-bold text-[#C0392B]">>100%</span> (cá biệt như <span class="font-bold text-[#C0392B]">NH 8 đạt 142.66%</span>).</li>
-              <li><strong class="text-slate-700">Đệm phòng vệ mỏng:</strong> Đệm vốn tự có bị bào mòn (<span class="font-bold text-[#C0392B]">&lt;6%</span> ở <span class="font-bold text-[#C0392B]">NH 22</span>) và dự phòng bao phủ nợ xấu quá thấp (<span class="font-bold text-[#C0392B]">&lt;50%</span>, cụ thể <span class="font-bold text-[#C0392B]">NH 22 chỉ đạt 8.60%</span>).</li>
-              <li><strong class="text-slate-700">Hệ quả:</strong> Khi thị trường đóng băng cục bộ, nợ xấu nổ tung tàn phá nặng nề vốn chủ sở hữu và lợi nhuận.</li>
+              <li><strong class="text-slate-700">Tín dụng tăng trưởng nóng:</strong> Tập trung cho cho vay các dự án BĐS lớn, đẩy LDR vượt trần an toàn <span class="font-bold text-[#C0392B]">>100%</span> (tiêu biểu như <span class="font-bold text-[#C0392B]">NH 8 đạt 142.66%</span>).</li>
+              <li><strong class="text-slate-700">Đệm phòng vệ yếu:</strong> Đệm vốn tự có bị bào mòn (<span class="font-bold text-[#C0392B]">&lt;6%</span> ở <span class="font-bold text-[#C0392B]">NH 22</span>) và tỷ lệ bao phủ nợ xấu quá thấp (<span class="font-bold text-[#C0392B]">&lt;50%</span>, <span class="font-bold text-[#C0392B]">NH 22 chỉ đạt 8.60%</span>).</li>
+              <li><strong class="text-slate-700">Hệ quả:</strong> Khi thị trường biến động, nợ xấu gia tăng làm xói mòn trực tiếp vốn chủ sở hữu và lợi nhuận.</li>
             </ul>
           </td>
         </tr>
