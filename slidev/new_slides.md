@@ -769,3 +769,56 @@ transition: slide-left
 
 <template #footer-left>Phần VI: Giai đoạn 1 (2020-2021) | Slide 6.3 – Nghịch lý Đòn bẩy</template>
 </ImpressiveHeader>
+
+---
+transition: slide-left
+---
+
+<!-- SLIDE 6.4: Giai đoạn 1 - Nợ ẩn & VAMC -->
+<ImpressiveHeader>
+<template #title>Chương 6: Giai đoạn 1 (2020-2021) — "Ai có vốn rẻ, người đó sống"</template>
+<template #subtitle>4. Nhánh phụ 2: Nợ ẩn — Sự bình yên tạm thời và quả bom nợ VAMC</template>
+
+<div class="grid grid-cols-12 gap-x-4 mt--4 text-slate-700">
+  <!-- CỘT TRÁI (col-span-5) -->
+  <div class="col-span-5 flex flex-col justify-center h-[390px] pr-2">
+    <div class="space-y-2 mb-2 text-justify text-[10px] leading-[1.25] text-slate-600 font-medium animate-fade-in-left">
+      <p>
+        <span class="text-slate-400 font-bold mr-1">♦</span>
+        <strong class="text-slate-800 text-[10.5px]">Sự phẳng lặng của tỷ lệ nợ xấu báo cáo:</strong><br />
+        Trong giai đoạn 2020-2021, chất lượng tài sản toàn ngành duy trì sự ổn định tạm thời. Tỷ lệ nợ xấu báo cáo toàn ngành (<span class="font-bold text-slate-500">NPL</span>) chỉ tăng nhẹ từ <span class="font-bold text-slate-500">1.74%</span> (2020) lên <span class="font-bold text-slate-500">1.78%</span> (2021), trung bình giai đoạn đạt <span class="font-bold text-slate-500">1.76%</span>, phản ánh khả năng chống chịu tốt của hệ thống trước đại dịch.
+      </p>
+      <p>
+        <span class="text-[#CC3333] font-bold mr-1">♦</span>
+        <strong class="text-[#CC3333] text-[10.5px]">Rủi ro nợ ẩn gia tăng dưới bảng cân đối kế toán:</strong><br />
+        Tuy nhiên, rủi ro tín dụng thực tế đang tích tụ qua hai kênh nợ ẩn:
+      </p>
+      <div class="pl-3 border-l-2 border-[#CC3333] space-y-1.5 text-[9.5px]">
+        <div>
+          <strong class="text-slate-800">1. Nợ Nhóm 2 vọt tăng mạnh:</strong> 
+          Tỷ lệ nợ cần chú ý tăng từ <span class="font-bold text-[#CC3333]">1.25% lên 1.67% (+0.42 pp)</span>, tương đương tốc độ tăng gấp hơn 10 lần nợ xấu báo cáo. Nhờ cơ chế hoãn hoãn nợ của Thông tư 01/2020 và 02/2021, các khoản nợ suy giảm chất lượng thực tế được giữ nguyên nhóm, biến Nhóm 2 thành nơi trú ẩn tạm thời.
+        </div>
+        <div>
+          <strong class="text-slate-800">2. Trái phiếu đặc biệt VAMC tồn đọng:</strong> 
+          Còn <span class="font-bold text-[#003366]">10/27 ngân hàng</span> gánh lượng trái phiếu VAMC lớn chưa tất toán. Đây là rủi ro nợ ẩn có độ trễ lớn, sẵn sàng phát nổ và ảnh hưởng mạnh đến lợi nhuận khi chính sách hỗ trợ hết hiệu lực.
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-blue-50/50 p-1.5 rounded border border-blue-100/50 text-[9.5px] leading-[1.2] mt-1">
+      <p class="text-slate-600">
+        <strong class="text-[#004C99]">Chuyển tiếp:</strong> Lá chắn CASA và kỷ luật đòn bẩy hỗ trợ duy trì sự bình ổn tạm thời trong năm 2020-2021. Nhưng bước sang giai đoạn 2022-2023, khi chính sách tiền tệ đảo chiều và quả bom nợ ẩn hết thời gian ân hạn, cục diện chất lượng tài sản lập tức xoay chuyển.
+      </p>
+    </div>
+  </div>
+
+  <!-- CỘT PHẢI (col-span-7) - Biểu đồ -->
+  <div class="col-span-7 flex flex-col justify-center h-[390px] pl-3 border-l border-slate-200/60">
+    <div class="w-full h-[370px]">
+      <img src="./public/new_slide_6_4_no_an_vamc.png" class="h-full w-full object-contain" />
+    </div>
+  </div>
+</div>
+
+<template #footer-left>Phần VI: Giai đoạn 1 (2020-2021) | Slide 6.4 – Rủi ro Nợ ẩn & VAMC</template>
+</ImpressiveHeader>
