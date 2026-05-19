@@ -12,14 +12,14 @@
       </h1>
 
       <!-- Impressive Horizontal Lines -->
-      <div class="flex flex-col gap-1 mt-[-12px]">
+      <div class="flex flex-col gap-1 mt-[-11px]">
         <div
           class="w-full h-[5px] bg-gradient-to-r from-blue-800 via-purple-800 to-transparent impressive-line"
         ></div>
       </div>
 
       <!-- Sub Header with line separating content -->
-      <div class="flex items-center w-full mt-1 mt-2">
+      <div class="flex items-center w-full mt-1">
         <h2 class="!text-2xl font-bold text-gray-500 m-0 pr-6">
           <slot name="subtitle">Section Subtitle</slot>
         </h2>
@@ -29,7 +29,7 @@
     </header>
 
     <!-- Main Content Area -->
-    <main class="flex-grow px-6 py-3 overflow-auto relative z-10 text-[12px]">
+    <main class="flex-grow px-6 py-0 overflow-auto relative z-10 text-[12px]">
       <slot />
     </main>
 
@@ -93,7 +93,7 @@ main :deep(li),
 main :deep(div),
 main :deep(td),
 main :deep(th) {
-  font-size: 12px !important;
+  font-size: 11px !important;
 }
 footer,
 footer :deep(div),
