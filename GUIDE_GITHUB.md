@@ -7,8 +7,8 @@ Dưới đây là các bước chi tiết để bạn đưa thư mục dự án 
 ### Bước 1: Cấu hình Git (Chỉ cần làm lần đầu tiên)
 Nếu đây là lần đầu bạn dùng Git trên máy tính, chạy 2 lệnh sau trên terminal để cấu hình thông tin cá nhân:
 ```bash
-git config --global user.name "Tên của bạn"
-git config --global user.email "email_cua_ban@example.com"
+git config --global user.name "truc199"
+git config --global user.email "quangtruc1909@gmail.com"
 ```
 
 ---
