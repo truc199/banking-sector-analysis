@@ -28,7 +28,8 @@ def main():
     GRID_COLOR   = "#F1F5F9"  # Soft background grid
     
     # Typography
-    plt.rcParams['font.family'] = 'DejaVu Sans'
+    plt.rcParams['font.family'] = 'sans-serif'
+    plt.rcParams['font.sans-serif'] = ['Segoe UI', 'Arial', 'Helvetica', 'DejaVu Sans']
     plt.rcParams['text.color'] = TEXT_DARK
     plt.rcParams['axes.labelcolor'] = TEXT_DARK
     plt.rcParams['xtick.color'] = TEXT_DARK

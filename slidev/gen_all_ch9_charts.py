@@ -9,7 +9,7 @@ def safe_div(a, b):
 
 # Set font style and parameters for high-end professional reports
 plt.rcParams['font.family'] = 'sans-serif'
-plt.rcParams['font.sans-serif'] = ['DejaVu Sans', 'Arial', 'Helvetica']
+plt.rcParams['font.sans-serif'] = ['Segoe UI', 'Arial', 'Helvetica', 'DejaVu Sans']
 plt.rcParams['axes.edgecolor'] = '#E2E8F0'
 plt.rcParams['axes.linewidth'] = 0.8
 plt.rcParams['xtick.color'] = '#475569'

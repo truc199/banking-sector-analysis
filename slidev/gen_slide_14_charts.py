@@ -6,7 +6,8 @@ import matplotlib.patches as mpatches
 import glob
 import os
 
-matplotlib.rcParams['font.family'] = 'DejaVu Sans'
+matplotlib.rcParams['font.family'] = 'sans-serif'
+matplotlib.rcParams['font.sans-serif'] = ['Segoe UI', 'Arial', 'Helvetica', 'DejaVu Sans']
 matplotlib.rcParams['axes.spines.top']   = False
 matplotlib.rcParams['axes.spines.right'] = False
 

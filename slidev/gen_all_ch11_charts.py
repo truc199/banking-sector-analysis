@@ -84,7 +84,7 @@ def main():
     
     # Set up matplotlib style matching premium theme
     plt.rcParams['font.family'] = 'sans-serif'
-    plt.rcParams['font.sans-serif'] = ['DejaVu Sans', 'Arial', 'Helvetica']
+    plt.rcParams['font.sans-serif'] = ['Segoe UI', 'Arial', 'Helvetica', 'DejaVu Sans']
     plt.rcParams['axes.edgecolor'] = '#CBD5E1'
     plt.rcParams['axes.linewidth'] = 0.6
     

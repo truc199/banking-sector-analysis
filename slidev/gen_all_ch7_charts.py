@@ -5,7 +5,7 @@ from scipy.interpolate import pchip_interpolate
 
 # Set style parameters
 plt.rcParams['font.family'] = 'sans-serif'
-plt.rcParams['font.sans-serif'] = ['DejaVu Sans', 'Arial', 'Helvetica']
+plt.rcParams['font.sans-serif'] = ['Segoe UI', 'Arial', 'Helvetica', 'DejaVu Sans']
 plt.rcParams['text.color'] = '#334155'
 plt.rcParams['axes.labelcolor'] = '#334155'
 plt.rcParams['xtick.color'] = '#475569'
