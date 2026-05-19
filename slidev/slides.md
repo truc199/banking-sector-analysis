@@ -16,10 +16,6 @@ title: Vualidon.FP Financial Analysis
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Chương 1: Quy mô &amp; Tăng trưởng</template>
 <template #subtitle>Phân tích toàn diện Quy mô Hệ thống &amp; Năng lực Vốn hóa Ngành Ngân hàng Việt Nam (2020 – 2024)</template>
@@ -64,10 +60,6 @@ transition: slide-left
 <template #footer-left>Phần I: Bức tranh toàn cảnh | Slide 1.0 - Quy mô &amp; Năng lực Vốn hóa Ngành</template>
 </ImpressiveHeader>
 
----
-
----
-transition: slide-left
 ---
 
 <ImpressiveHeader>
@@ -116,10 +108,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Chương 3: Cơ cấu thu nhập &amp; Chi phí hoạt động</template>
 <template #subtitle>Đa dạng hóa nguồn thu &amp; Phân hóa năng lực tối ưu vận hành toàn ngành (2015 – 2024)</template>
@@ -159,10 +147,6 @@ transition: slide-left
 <template #footer-left>Phần I: Bức tranh toàn cảnh | Slide 3.0 - Cơ cấu thu nhập &amp; Chi phí hoạt động</template>
 </ImpressiveHeader>
 
----
-
----
-transition: slide-left
 ---
 
 <ImpressiveHeader>
@@ -207,10 +191,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Chương 5: Sức khỏe tài sản</template>
 <template #subtitle>Chất lượng tài sản hệ thống: Bão nợ xấu tiềm ẩn &amp; Cảnh báo an toàn đệm dự phòng (2020 – 2024)</template>
@@ -247,10 +227,6 @@ transition: slide-left
 <template #footer-left>Phần I: Bức tranh toàn cảnh | Slide 5.0 - Sức khỏe tài sản &amp; Rủi ro tín dụng</template>
 </ImpressiveHeader>
 
----
-
----
-transition: slide-left
 ---
 
 <ImpressiveHeader>
@@ -360,10 +336,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Chương 6: GĐ1 — COVID-19 &amp; Shock Hệ Thống (2020-2021)</template>
 <template #subtitle>Bối cảnh vĩ mô và Phản ứng chính sách tiền tệ hỗ trợ hoãn giãn nợ (TT01/02)</template>
@@ -400,10 +372,6 @@ transition: slide-left
 <template #footer-left>Phần II: Đào sâu nguyên nhân | Chương 6 — Slide 6.1: Bối cảnh Vĩ mô GĐ1</template>
 </ImpressiveHeader>
 
----
-
----
-transition: slide-left
 ---
 
 <ImpressiveHeader>
@@ -444,10 +412,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Sức khỏe tài sản GĐ1: Phơi nhiễm ngành &amp; Che giấu Nợ xấu thực</template>
 <template #subtitle>Kiểm định Giả thuyết H1.3 &amp; H1.4: Tín hiệu nhiễu do giãn nợ và Sự bùng nổ Watch-list âm thầm</template>
@@ -484,10 +448,6 @@ transition: slide-left
 <template #footer-left>Phần II: Đào sâu nguyên nhân | Chương 6 — Slide 6.3: Kiểm định Giả thuyết H1.3 &amp; H1.4</template>
 </ImpressiveHeader>
 
----
-
----
-transition: slide-left
 ---
 
 <ImpressiveHeader>
@@ -528,10 +488,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Khử huyền thoại hiệu năng GĐ2: NIM sụp đổ &amp; Khủng hoảng Thanh khoản</template>
 <template #subtitle>Kiểm định Giả thuyết H2.1 &amp; H2.2: Sức ép chi phí vốn huy động và Sự bùng nổ tỷ lệ LDR</template>
@@ -568,10 +524,6 @@ transition: slide-left
 <template #footer-left>Phần II: Đào sâu nguyên nhân | Chương 7 — Slide 7.2: Kiểm định Giả thuyết H2.1 &amp; H2.2</template>
 </ImpressiveHeader>
 
----
-
----
-transition: slide-left
 ---
 
 <ImpressiveHeader>
@@ -612,10 +564,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Khởi sắc &amp; Bất định Vĩ mô GĐ3 (2024)</template>
 <template #subtitle>Động lực từ sự phục hồi của kinh tế thực và sức ép dòng vốn, tỷ giá</template>
@@ -650,10 +598,6 @@ transition: slide-left
 <template #footer-left>Giai đoạn 3: Tái cân bằng &amp; Thách thức mới | Chương 8 — Slide 8.1: Bối cảnh Vĩ mô GĐ3</template>
 </ImpressiveHeader>
 
----
-
----
-transition: slide-left
 ---
 
 <ImpressiveHeader>
@@ -694,10 +638,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Giải phẫu DuPont: Lợi thế từ Hiệu năng Lợi nhuận</template>
 <template #subtitle>Kiểm định Giả thuyết H3.3: Vai trò quyết định của Biên lợi nhuận so với Đòn bẩy tài chính</template>
@@ -734,10 +674,6 @@ transition: slide-left
 <template #footer-left>Giai đoạn 3: Tái cân bằng &amp; Thách thức mới | Chương 8 — Slide 8.3: Kiểm định Giả thuyết H3.3</template>
 </ImpressiveHeader>
 
----
-
----
-transition: slide-left
 ---
 
 <ImpressiveHeader>
@@ -779,10 +715,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Chương 9: Trajectory Map — Phân Cụm Vị Thế Giai Đoạn 2 (2022 - 2023)</template>
 <template #subtitle>Phục hồi hậu dịch &amp; Thắt chặt tín dụng: Sự phân hóa rõ rệt bắt đầu bộc lộ</template>
@@ -822,10 +754,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Chương 9: Trajectory Map — Phân Cụm Vị Thế Giai Đoạn 3 (2024)</template>
 <template #subtitle>Tái cân bằng phục hồi: Phân hóa đỉnh cao và sự lên ngôi của kỷ luật thép</template>
@@ -863,10 +791,6 @@ transition: slide-left
 <template #footer-left>Tổng hợp kết quả thực nghiệm | Chương 9 — Slide 9.1c: Phân cụm vị thế Giai đoạn 3 (2024)</template>
 </ImpressiveHeader>
 
----
-
----
-transition: slide-left
 ---
 
 <ImpressiveHeader>
@@ -973,10 +897,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Đệm Vốn &amp; Dự Phòng: Kỷ Luật Thép Định Đoạt Sinh Tồn</template>
 <template #subtitle>Kiểm định Giả thuyết H3.2: Tương quan thuận giữa sức mạnh vốn tự có và năng lực trích lập dự phòng với sự bền vững</template>
@@ -1011,10 +931,6 @@ transition: slide-left
 <template #footer-left>Tổng hợp kết quả thực nghiệm | Chương 9 — Slide 9.2: Kiểm định Giả thuyết H3.2</template>
 </ImpressiveHeader>
 
----
-
----
-transition: slide-left
 ---
 
 <ImpressiveHeader>
@@ -1105,10 +1021,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Chương 11: Chiến lược cụ thể — Tối ưu hóa đệm tiền gửi CASA giá rẻ</template>
 <template #subtitle>Hóa giải áp lực chi phí vốn qua nền tảng quản lý dòng tiền số B2B và liên kết payroll banking (2024)</template>
@@ -1141,10 +1053,6 @@ transition: slide-left
 <template #footer-left>Phần III: Giải pháp &amp; Khuyến nghị | Chương 11 — Slide 14.1: Chiến lược đệm tiền gửi CASA</template>
 </ImpressiveHeader>
 
----
-
----
-transition: slide-left
 ---
 
 <ImpressiveHeader>
@@ -1181,10 +1089,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Chương 11: Chiến lược cụ thể — Quản trị Nợ xấu &amp; Thiết lập Đệm Dự phòng</template>
 <template #subtitle>Gia cố lá chắn phòng vệ và làm sạch bảng cân đối qua xử lý dứt điểm nợ xấu thực tế (2024)</template>
@@ -1217,10 +1121,6 @@ transition: slide-left
 <template #footer-left>Phần III: Giải pháp &amp; Khuyến nghị | Chương 11 — Slide 15.1: Quản trị Nợ xấu &amp; Đệm dự phòng</template>
 </ImpressiveHeader>
 
----
-
----
-transition: slide-left
 ---
 
 <ImpressiveHeader>
@@ -1257,10 +1157,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Chương 11: Chiến lược cụ thể — Tối ưu hóa đệm vốn tự có hệ thống</template>
 <template #subtitle>Gia cố tỷ lệ an toàn vốn Equity Ratio và giảm thiểu rủi ro mỏng vốn nghiêm trọng (2024)</template>
@@ -1295,10 +1191,6 @@ transition: slide-left
 
 ---
 
----
-transition: slide-left
----
-
 <ImpressiveHeader>
 <template #title>Chương 11: Chiến lược cụ thể — Tối ưu hóa chi phí &amp; Hiệu suất sinh lời</template>
 <template #subtitle>Phân rã DuPont và chiến lược tinh giảm CIR qua tự động hóa phê duyệt tín dụng (2024)</template>
@@ -1330,3 +1222,4 @@ transition: slide-left
 
 <template #footer-left>Phần III: Giải pháp &amp; Khuyến nghị | Chương 11 — Slide 16.2: Tối ưu hóa CIR &amp; Phân rã DuPont</template>
 </ImpressiveHeader>
+
