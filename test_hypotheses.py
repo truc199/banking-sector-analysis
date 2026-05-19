@@ -7,6 +7,9 @@ import numpy as np
 from scipy import stats
 import warnings
 warnings.filterwarnings('ignore')
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
 
 # ============================================================
 # LOAD DATA

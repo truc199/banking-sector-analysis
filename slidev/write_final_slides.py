@@ -1,4 +1,12 @@
----
+import os
+
+def build_slides():
+    slides = []
+    
+    # -------------------------------------------------------------
+    # SLIDE 1: Cover
+    # -------------------------------------------------------------
+    slide_1 = """---
 title: Vualidon.FP Financial Analysis
 ---
 
@@ -12,11 +20,13 @@ title: Vualidon.FP Financial Analysis
 <template #image>
   <img src="./image.png" />
 </template>
-</ImpressiveCover>
-
----
-
----
+</ImpressiveCover>"""
+    slides.append(slide_1)
+    
+    # -------------------------------------------------------------
+    # SLIDE 2: Chapter 1 (Slide 1.0)
+    # -------------------------------------------------------------
+    slide_2 = """---
 transition: slide-left
 ---
 
@@ -62,11 +72,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần I: Bức tranh toàn cảnh | Slide 1.0 - Quy mô &amp; Năng lực Vốn hóa Ngành</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_2)
+    
+    # -------------------------------------------------------------
+    # SLIDE 3: Chapter 2 (Slide 2.0)
+    # -------------------------------------------------------------
+    slide_3 = """---
 transition: slide-left
 ---
 
@@ -112,11 +124,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần I: Bức tranh toàn cảnh | Slide 2.0 - Hiệu quả sinh lời &amp; Áp lực NIM</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_3)
+    
+    # -------------------------------------------------------------
+    # SLIDE 4: Chapter 3 (Slide 3.0)
+    # -------------------------------------------------------------
+    slide_4 = """---
 transition: slide-left
 ---
 
@@ -157,11 +171,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần I: Bức tranh toàn cảnh | Slide 3.0 - Cơ cấu thu nhập &amp; Chi phí hoạt động</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_4)
+    
+    # -------------------------------------------------------------
+    # SLIDE 5: Chapter 4 (Slide 4.0)
+    # -------------------------------------------------------------
+    slide_5 = """---
 transition: slide-left
 ---
 
@@ -203,11 +219,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần II: Huy động &amp; Tín dụng | Slide 4.0 – CASA · LDR · Cơ cấu tín dụng</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_5)
+    
+    # -------------------------------------------------------------
+    # SLIDE 6: Chapter 5 (Slide 5.0)
+    # -------------------------------------------------------------
+    slide_6 = """---
 transition: slide-left
 ---
 
@@ -245,11 +263,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần I: Bức tranh toàn cảnh | Slide 5.0 - Sức khỏe tài sản &amp; Rủi ro tín dụng</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_6)
+    
+    # -------------------------------------------------------------
+    # SLIDE 7: Key Takeaway (Slide 5.5)
+    # -------------------------------------------------------------
+    slide_7 = """---
 transition: slide-left
 ---
 
@@ -356,11 +376,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần I: Bức tranh toàn cảnh | Slide 5.5 - Scorecard tóm tắt &amp; Khép lại Phần I</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_7)
+    
+    # -------------------------------------------------------------
+    # SLIDE 8: Chapter 6 Slide 6.1
+    # -------------------------------------------------------------
+    slide_8 = """---
 transition: slide-left
 ---
 
@@ -398,11 +420,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần II: Đào sâu nguyên nhân | Chương 6 — Slide 6.1: Bối cảnh Vĩ mô GĐ1</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_8)
+    
+    # -------------------------------------------------------------
+    # SLIDE 9: Chapter 6 Slide 6.2
+    # -------------------------------------------------------------
+    slide_9 = """---
 transition: slide-left
 ---
 
@@ -440,11 +464,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần II: Đào sâu nguyên nhân | Chương 6 — Slide 6.2: Kiểm định Giả thuyết H1.1 &amp; H1.2</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_9)
+    
+    # -------------------------------------------------------------
+    # SLIDE 10: Chapter 6 Slide 6.3
+    # -------------------------------------------------------------
+    slide_10 = """---
 transition: slide-left
 ---
 
@@ -482,11 +508,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần II: Đào sâu nguyên nhân | Chương 6 — Slide 6.3: Kiểm định Giả thuyết H1.3 &amp; H1.4</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_10)
+    
+    # -------------------------------------------------------------
+    # SLIDE 11: Chapter 7 Slide 7.1
+    # -------------------------------------------------------------
+    slide_11 = """---
 transition: slide-left
 ---
 
@@ -524,11 +552,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần II: Đào sâu nguyên nhân | Chương 7 — Slide 7.1: Bối cảnh Vĩ mô GĐ2</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_11)
+    
+    # -------------------------------------------------------------
+    # SLIDE 12: Chapter 7 Slide 7.2
+    # -------------------------------------------------------------
+    slide_12 = """---
 transition: slide-left
 ---
 
@@ -566,11 +596,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần II: Đào sâu nguyên nhân | Chương 7 — Slide 7.2: Kiểm định Giả thuyết H2.1 &amp; H2.2</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_12)
+    
+    # -------------------------------------------------------------
+    # SLIDE 13: Chapter 7 Slide 7.3
+    # -------------------------------------------------------------
+    slide_13 = """---
 transition: slide-left
 ---
 
@@ -608,11 +640,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần II: Đào sâu nguyên nhân | Chương 7 — Slide 7.3: Kiểm định Giả thuyết H2.3 &amp; H2.4</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_13)
+    
+    # -------------------------------------------------------------
+    # SLIDE 14: Chapter 8 Slide 8.1
+    # -------------------------------------------------------------
+    slide_14 = """---
 transition: slide-left
 ---
 
@@ -648,11 +682,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Giai đoạn 3: Tái cân bằng &amp; Thách thức mới | Chương 8 — Slide 8.1: Bối cảnh Vĩ mô GĐ3</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_14)
+    
+    # -------------------------------------------------------------
+    # SLIDE 15: Chapter 8 Slide 8.2
+    # -------------------------------------------------------------
+    slide_15 = """---
 transition: slide-left
 ---
 
@@ -690,11 +726,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Giai đoạn 3: Tái cân bằng &amp; Thách thức mới | Chương 8 — Slide 8.2: Kiểm định Giả thuyết H3.1</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_15)
+    
+    # -------------------------------------------------------------
+    # SLIDE 16: Chapter 8 Slide 8.3
+    # -------------------------------------------------------------
+    slide_16 = """---
 transition: slide-left
 ---
 
@@ -732,11 +770,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Giai đoạn 3: Tái cân bằng &amp; Thách thức mới | Chương 8 — Slide 8.3: Kiểm định Giả thuyết H3.3</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_16)
+    
+    # -------------------------------------------------------------
+    # SLIDE 17: Chapter 9 Slide 9.1a
+    # -------------------------------------------------------------
+    slide_17 = """---
 transition: slide-left
 ---
 
@@ -775,11 +815,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Tổng hợp kết quả thực nghiệm | Chương 9 — Slide 9.1a: Phân cụm vị thế Giai đoạn 1 (2020 - 2021)</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_17)
+    
+    # -------------------------------------------------------------
+    # SLIDE 18: Chapter 9 Slide 9.1b
+    # -------------------------------------------------------------
+    slide_18 = """---
 transition: slide-left
 ---
 
@@ -818,11 +860,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Tổng hợp kết quả thực nghiệm | Chương 9 — Slide 9.1b: Phân cụm vị thế Giai đoạn 2 (2022 - 2023)</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_18)
+    
+    # -------------------------------------------------------------
+    # SLIDE 19: Chapter 9 Slide 9.1c
+    # -------------------------------------------------------------
+    slide_19 = """---
 transition: slide-left
 ---
 
@@ -861,11 +905,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Tổng hợp kết quả thực nghiệm | Chương 9 — Slide 9.1c: Phân cụm vị thế Giai đoạn 3 (2024)</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_19)
+    
+    # -------------------------------------------------------------
+    # SLIDE 20: [NEW SLIDE] Cluster Profile Table (Slide 9.1d)
+    # -------------------------------------------------------------
+    slide_20 = """---
 transition: slide-left
 ---
 
@@ -969,11 +1015,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Tổng hợp kết quả thực nghiệm | Chương 9 — Slide 9.1d: Hồ sơ 4 Cụm Vị thế</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_20)
+    
+    # -------------------------------------------------------------
+    # SLIDE 21: Chapter 9 Slide 9.2 (Đệm vốn & Dự phòng)
+    # -------------------------------------------------------------
+    slide_21 = """---
 transition: slide-left
 ---
 
@@ -1009,11 +1057,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Tổng hợp kết quả thực nghiệm | Chương 9 — Slide 9.2: Kiểm định Giả thuyết H3.2</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_21)
+    
+    # -------------------------------------------------------------
+    # SLIDE 22: Chapter 9 Slide 9.3 (Bảng vàng thực nghiệm)
+    # -------------------------------------------------------------
+    slide_22 = """---
 transition: slide-left
 ---
 
@@ -1101,11 +1151,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Tổng hợp kết quả thực nghiệm | Chương 9 — Slide 9.3: Tổng hợp 11 Giả thuyết &amp; 3 Gene Bền vững</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_22)
+    
+    # -------------------------------------------------------------
+    # SLIDE 23: Chapter 11 Slide 11.2a (Chiến lược CASA)
+    # -------------------------------------------------------------
+    slide_23 = """---
 transition: slide-left
 ---
 
@@ -1139,11 +1191,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần III: Giải pháp &amp; Khuyến nghị | Chương 11 — Slide 14.1: Chiến lược đệm tiền gửi CASA</template>
-</ImpressiveHeader>
+</ImpressiveHeader>"""
+    slides.append(slide_23)
 
----
-
----
+    # -------------------------------------------------------------
+    # SLIDE 24: Chapter 11 Slide 11.2b (Quản trị Thanh khoản LDR)
+    # -------------------------------------------------------------
+    slide_24 = """---
 transition: slide-left
 ---
 
@@ -1177,11 +1231,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần III: Giải pháp &amp; Khuyến nghị | Chương 11 — Slide 14.2: Quản trị Thanh khoản LDR</template>
-</ImpressiveHeader>
-
----
-
----
+</ImpressiveHeader>"""
+    slides.append(slide_24)
+    
+    # -------------------------------------------------------------
+    # SLIDE 25: Chapter 11 Slide 11.3a (Quản trị Nợ xấu & Đệm Dự phòng)
+    # -------------------------------------------------------------
+    slide_25 = """---
 transition: slide-left
 ---
 
@@ -1215,11 +1271,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần III: Giải pháp &amp; Khuyến nghị | Chương 11 — Slide 15.1: Quản trị Nợ xấu &amp; Đệm dự phòng</template>
-</ImpressiveHeader>
+</ImpressiveHeader>"""
+    slides.append(slide_25)
 
----
-
----
+    # -------------------------------------------------------------
+    # SLIDE 26: Chapter 11 Slide 11.3b (Đa dạng hóa nguồn thu ngoài tín dụng)
+    # -------------------------------------------------------------
+    slide_26 = """---
 transition: slide-left
 ---
 
@@ -1253,11 +1311,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần III: Giải pháp &amp; Khuyến nghị | Chương 11 — Slide 15.2: Đa dạng hóa nguồn thu ngoài tín dụng</template>
-</ImpressiveHeader>
+</ImpressiveHeader>"""
+    slides.append(slide_26)
 
----
-
----
+    # -------------------------------------------------------------
+    # SLIDE 27: Chapter 11 Slide 11.4a (Quản trị Đệm vốn an toàn)
+    # -------------------------------------------------------------
+    slide_27 = """---
 transition: slide-left
 ---
 
@@ -1291,11 +1351,13 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần III: Giải pháp &amp; Khuyến nghị | Chương 11 — Slide 16.1: Tối ưu hóa đệm vốn an toàn</template>
-</ImpressiveHeader>
+</ImpressiveHeader>"""
+    slides.append(slide_27)
 
----
-
----
+    # -------------------------------------------------------------
+    # SLIDE 28: Chapter 11 Slide 11.4b (DuPont & Tinh giảm opex CIR)
+    # -------------------------------------------------------------
+    slide_28 = """---
 transition: slide-left
 ---
 
@@ -1329,4 +1391,16 @@ transition: slide-left
 </div>
 
 <template #footer-left>Phần III: Giải pháp &amp; Khuyến nghị | Chương 11 — Slide 16.2: Tối ưu hóa CIR &amp; Phân rã DuPont</template>
-</ImpressiveHeader>
+</ImpressiveHeader>"""
+    slides.append(slide_28)
+    
+    # Write to slides.md
+    out_file = r"D:\uni\gcontest\slidev\slides.md"
+    with open(out_file, 'w', encoding='utf-8') as f:
+        f.write("\n\n---\n\n".join(slides))
+        f.write("\n")
+        
+    print(f"Successfully generated all {len(slides)} slides in {out_file}!")
+
+if __name__ == "__main__":
+    build_slides()
