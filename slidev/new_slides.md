@@ -1258,55 +1258,52 @@ transition: slide-left
 
 <div class="w-full flex flex-col justify-start h-[395px] mt-1 text-slate-700">
   <!-- Bối cảnh thực nghiệm -->
-  <div class="bg-rose-50/70 border-l-4 border-rose-600 rounded-r-md px-3 py-1.5 mb-2.5 text-[9.5px] leading-[1.25] text-rose-950 font-medium">
+  <div class="bg-rose-50/70 border-l-4 border-rose-600 rounded-r-md px-3 py-1.5 mb-2 text-[9.5px] leading-[1.25] text-rose-950 font-medium">
     <strong class="text-rose-900 font-bold">Vấn đề cốt lõi từ dữ liệu:</strong> Tỷ lệ thanh khoản LDR toàn hệ thống căng thẳng ở mức <span class="font-bold text-rose-700">104.87%</span>; có <span class="font-bold text-rose-700">22/27</span> ngân hàng thiếu hụt đệm dự phòng (Coverage &lt; 100%) và <span class="font-bold text-rose-700">5/27</span> ngân hàng có đệm vốn mỏng (&lt; 6%). Nợ xấu (NPL) trở thành biến số thống trị kéo lùi lợi nhuận (<span class="font-bold text-rose-700">r = -0.894</span>).
   </div>
 
-  <!-- 3 Cột giải pháp -->
-  <div class="grid grid-cols-3 gap-3 flex-1">
-    <!-- Cột 1 -->
-    <div class="bg-slate-50/80 border border-slate-100 rounded-lg p-2.5 flex flex-col justify-start">
-      <div class="flex items-center space-x-1.5 mb-1.5 pb-1 border-b border-slate-200/50">
-        <span class="text-[11px]">🎯</span>
-        <strong class="text-[10px] text-slate-800 uppercase font-bold text-[#003366]">Phân bổ Room Tín Dụng</strong>
+  <!-- Các dòng giải pháp -->
+  <div class="flex flex-col space-y-2 flex-grow">
+    <!-- Dòng 1 -->
+    <div class="bg-slate-50/80 border border-slate-100 rounded-lg p-2 flex items-start space-x-3">
+      <div class="flex-shrink-0 w-28 border-r border-slate-200 pr-2 flex flex-col justify-center min-h-[50px]">
+        <div class="flex items-center space-x-1">
+          <span class="text-[10px]">🎯</span>
+          <strong class="text-[9px] text-[#003366] uppercase font-bold tracking-wider">Room Tín Dụng</strong>
+        </div>
+        <span class="text-[7.5px] text-slate-400 font-semibold mt-0.5">NHNN & Cơ chế cấp</span>
       </div>
-      <p class="text-[9.5px] leading-[1.3] text-slate-600 text-justify">
-        <strong class="text-slate-800">Kiểm soát rủi ro hệ thống & room tín dụng:</strong> Phân hóa cấp room tín dụng chặt chẽ dựa trên sức khỏe tài chính:
-      </p>
-      <ul class="list-disc pl-3.5 mt-1 space-y-1 text-[9px] leading-[1.25] text-slate-500 text-justify">
-        <li>Ưu tiên cấp room cho cụm <strong class="text-emerald-700">Ngôi Sao / Ổn định</strong> có tỷ lệ CASA dồi dào và Coverage &gt; 100%.</li>
-        <li>Yêu cầu trình phương án tái cơ cấu khẩn cấp và siết room tín dụng với cụm <strong class="text-rose-700">Cần giám sát</strong> (đặc biệt là nhóm có NPL &gt; 3% và lạm dụng đòn bẩy).</li>
-      </ul>
+      <div class="flex-grow text-[9px] leading-[1.3] text-slate-600 text-justify">
+        <strong class="text-slate-800">Kiểm soát rủi ro hệ thống & room tín dụng:</strong> Phân hóa cấp room tín dụng chặt chẽ dựa trên sức khỏe tài chính thực tế. Ưu tiên cấp room cao cho cụm <strong class="text-emerald-700">Ngôi Sao / Ổn định</strong> có tỷ lệ CASA dồi dào và Coverage &gt; 100%. Yêu cầu trình phương án tái cơ cấu khẩn cấp và siết room tín dụng với cụm <strong class="text-rose-700">Cần giám sát</strong> (đặc biệt là nhóm có NPL &gt; 3% và lạm dụng đòn bẩy).
+      </div>
     </div>
 
-    <!-- Cột 2 -->
-    <div class="bg-slate-50/80 border border-slate-100 rounded-lg p-2.5 flex flex-col justify-start">
-      <div class="flex items-center space-x-1.5 mb-1.5 pb-1 border-b border-slate-200/50">
-        <span class="text-[11px]">💧</span>
-        <strong class="text-[10px] text-slate-800 uppercase font-bold text-[#003366]">Thanh Khoản & Luật Nợ Xấu</strong>
+    <!-- Dòng 2 -->
+    <div class="bg-slate-50/80 border border-slate-100 rounded-lg p-2 flex items-start space-x-3">
+      <div class="flex-shrink-0 w-28 border-r border-slate-200 pr-2 flex flex-col justify-center min-h-[50px]">
+        <div class="flex items-center space-x-1">
+          <span class="text-[10px]">💧</span>
+          <strong class="text-[9px] text-[#003366] uppercase font-bold tracking-wider">Luật Nợ Xấu & OMO</strong>
+        </div>
+        <span class="text-[7.5px] text-slate-400 font-semibold mt-0.5">Khơi thông thanh khoản</span>
       </div>
-      <p class="text-[9.5px] leading-[1.3] text-slate-600 text-justify">
-        <strong class="text-slate-800">Giải tỏa thanh khoản & hành lang pháp lý:</strong> Điều hành linh hoạt kết hợp hoàn thiện hành lang pháp lý:
-      </p>
-      <ul class="list-disc pl-3.5 mt-1 space-y-1 text-[9px] leading-[1.25] text-slate-500 text-justify">
-        <li>Điều hành linh hoạt thị trường mở (OMO) cung cấp thanh khoản ngắn hạn, hạn chế việc các NH nhỏ (CASA &lt; 15%) phải đua lãi suất phát hành Giấy tờ có giá đắt đỏ gây hiệu ứng domino.</li>
-        <li>Đẩy nhanh hoàn thiện hành lang pháp lý (kế thừa Nghị quyết 42) để phát mại tài sản bảo đảm, xử lý triệt để nợ đọng của <strong class="text-slate-700">VAMC</strong>.</li>
-      </ul>
+      <div class="flex-grow text-[9px] leading-[1.3] text-slate-600 text-justify">
+        <strong class="text-slate-800">Thanh khoản & Xử lý nợ xấu:</strong> Điều hành linh hoạt thị trường mở (OMO) để cung cấp thanh khoản ngắn hạn, hạn chế việc các ngân hàng nhỏ (CASA &lt; 15%) phải đua lãi suất phát hành Giấy tờ có giá đắt đỏ gây hiệu ứng domino. Đẩy nhanh hoàn thiện hành lang pháp lý (kế thừa Nghị quyết 42) để các ngân hàng nhanh chóng phát mại tài sản bảo đảm, xử lý triệt độ nợ đọng của <strong class="text-slate-700">VAMC</strong>.
+      </div>
     </div>
 
-    <!-- Cột 3 -->
-    <div class="bg-slate-50/80 border border-slate-100 rounded-lg p-2.5 flex flex-col justify-start">
-      <div class="flex items-center space-x-1.5 mb-1.5 pb-1 border-b border-slate-200/50">
-        <span class="text-[11px]">💻</span>
-        <strong class="text-[10px] text-slate-800 uppercase font-bold text-[#003366]">Hạ Tầng Số Open Banking</strong>
+    <!-- Dòng 3 -->
+    <div class="bg-slate-50/80 border border-slate-100 rounded-lg p-2 flex items-start space-x-3">
+      <div class="flex-shrink-0 w-28 border-r border-slate-200 pr-2 flex flex-col justify-center min-h-[50px]">
+        <div class="flex items-center space-x-1">
+          <span class="text-[10px]">💻</span>
+          <strong class="text-[9px] text-[#003366] uppercase font-bold tracking-wider">Hạ Tầng Số</strong>
+        </div>
+        <span class="text-[7.5px] text-slate-400 font-semibold mt-0.5">Open Banking & API</span>
       </div>
-      <p class="text-[9.5px] leading-[1.3] text-slate-600 text-justify">
-        <strong class="text-slate-800">Thúc đẩy hạ tầng số Open Banking:</strong> Tạo bệ phóng giúp toàn ngành giảm chi phí vận hành và đa dạng nguồn thu:
-      </p>
-      <ul class="list-disc pl-3.5 mt-1 space-y-1 text-[9px] leading-[1.25] text-slate-500 text-justify">
-        <li>Đẩy nhanh tiến độ hoàn thiện khung pháp lý về Open API và chia sẻ dữ liệu quốc gia (Đề án 06) giúp giảm thiểu CIR.</li>
-        <li>Gia tăng thu nhập dịch vụ phi tín dụng, giảm bớt sự phụ thuộc rủi ro vào hoạt động tín dụng truyền thống.</li>
-      </ul>
+      <div class="flex-grow text-[9px] leading-[1.3] text-slate-600 text-justify">
+        <strong class="text-slate-800">Thúc đẩy hạ tầng số Open Banking:</strong> Đẩy nhanh tiến độ hoàn thiện khung pháp lý về Open API và chia sẻ dữ liệu quốc gia (Đề án 06), tạo bệ phóng giúp toàn ngành giảm chi phí vận hành (CIR) và gia tăng thu nhập dịch vụ phi tín dụng, qua đó giảm phụ thuộc rủi ro vào hoạt động tín dụng truyền thống.
+      </div>
     </div>
   </div>
 </div>
@@ -1325,55 +1322,52 @@ transition: slide-left
 
 <div class="w-full flex flex-col justify-start h-[395px] mt-1 text-slate-700">
   <!-- Bối cảnh thực nghiệm -->
-  <div class="bg-slate-50 border-l-4 border-[#003366] rounded-r-md px-3 py-1.5 mb-2.5 text-[9.5px] leading-[1.25] text-slate-900 font-medium">
+  <div class="bg-slate-50 border-l-4 border-[#003366] rounded-r-md px-3 py-1.5 mb-2 text-[9.5px] leading-[1.25] text-slate-900 font-medium">
     <strong class="text-[#003366] font-bold">Vấn đề cốt lõi từ dữ liệu:</strong> Biên lợi nhuận (Profit Margin) quyết định khả năng sinh lời bền vững (<span class="font-bold text-[#003366]">r = -0.904</span> với ROE) trong khi chi phí nhân sự chiếm tới <span class="font-bold text-slate-800">~55.4%</span> Opex. Việc lạm dụng đòn bẩy khi nợ xấu bùng phát chỉ khuếch đại khoản lỗ (ROE nhóm đòn bẩy cao chạm đáy <span class="font-bold text-rose-600">-1.55%</span>).
   </div>
 
-  <!-- 3 Cột giải pháp -->
-  <div class="grid grid-cols-3 gap-3 flex-1">
-    <!-- Cột 1 -->
-    <div class="bg-slate-50/80 border border-slate-100 rounded-lg p-2.5 flex flex-col justify-start">
-      <div class="flex items-center space-x-1.5 mb-1.5 pb-1 border-b border-slate-200/50">
-        <span class="text-[11px]">🏆</span>
-        <strong class="text-[10px] text-slate-800 uppercase font-bold text-[#003366]">Bảo vệ Gene 1: CASA & Thanh khoản</strong>
+  <!-- Các dòng giải pháp -->
+  <div class="flex flex-col space-y-2 flex-grow">
+    <!-- Dòng 1 -->
+    <div class="bg-slate-50/80 border border-slate-100 rounded-lg p-2 flex items-start space-x-3">
+      <div class="flex-shrink-0 w-28 border-r border-slate-200 pr-2 flex flex-col justify-center min-h-[50px]">
+        <div class="flex items-center space-x-1">
+          <span class="text-[10px]">🏆</span>
+          <strong class="text-[9px] text-[#003366] uppercase font-bold tracking-wider">Gene 1: CASA</strong>
+        </div>
+        <span class="text-[7.5px] text-slate-400 font-semibold mt-0.5">Thanh khoản & Giá vốn</span>
       </div>
-      <p class="text-[9.5px] leading-[1.3] text-slate-600 text-justify">
-        Từ bỏ tư duy cạnh tranh huy động vốn bằng lãi suất cao, tối ưu cơ cấu nguồn:
-      </p>
-      <ul class="list-disc pl-3.5 mt-1 space-y-1 text-[9px] leading-[1.25] text-slate-500 text-justify">
-        <li>Chuyển sang thu hút CASA cá nhân thông qua trải nghiệm hệ sinh thái số (Zero-fee, tiện ích đa dạng và liên kết thanh toán số).</li>
-        <li>Giảm tỷ trọng nguồn vốn Wholesale ngắn hạn để tài trợ tín dụng trung-dài hạn nhằm hạ nhiệt tỷ lệ LDR hệ thống.</li>
-      </ul>
+      <div class="flex-grow text-[9px] leading-[1.3] text-slate-600 text-justify">
+        <strong class="text-slate-800">Bảo vệ Gene 1 (CASA & thanh khoản):</strong> Từ bỏ tư duy cạnh tranh huy động vốn bằng lãi suất cao. Chuyển sang thu hút CASA cá nhân thông qua trải nghiệm hệ sinh thái số (Zero-fee, tiện ích đa dạng). Giảm tỷ trọng nguồn vốn Wholesale ngắn hạn để tài trợ tín dụng trung-dài hạn nhằm hạ nhiệt LDR.
+      </div>
     </div>
 
-    <!-- Cột 2 -->
-    <div class="bg-slate-50/80 border border-slate-100 rounded-lg p-2.5 flex flex-col justify-start">
-      <div class="flex items-center space-x-1.5 mb-1.5 pb-1 border-b border-[#003366]/20">
-        <span class="text-[11px]">📉</span>
-        <strong class="text-[10px] text-slate-800 uppercase font-bold text-[#003366]">Kỷ luật Gene 2: Quản trị Nợ xấu</strong>
+    <!-- Dòng 2 -->
+    <div class="bg-slate-50/80 border border-slate-100 rounded-lg p-2 flex items-start space-x-3">
+      <div class="flex-shrink-0 w-28 border-r border-slate-200 pr-2 flex flex-col justify-center min-h-[50px]">
+        <div class="flex items-center space-x-1">
+          <span class="text-[10px]">📉</span>
+          <strong class="text-[9px] text-[#003366] uppercase font-bold tracking-wider">Gene 2: Nợ Xấu</strong>
+        </div>
+        <span class="text-[7.5px] text-slate-400 font-semibold mt-0.5">Kỷ luật Quản trị nợ</span>
       </div>
-      <p class="text-[9.5px] leading-[1.3] text-slate-600 text-justify">
-        Chấm dứt chiến lược "tăng trưởng bằng mọi giá" qua đòn bẩy tài chính cao:
-      </p>
-      <ul class="list-disc pl-3.5 mt-1 space-y-1 text-[9px] leading-[1.25] text-slate-500 text-justify">
-        <li>Ngân hàng có tỷ lệ bao phủ (Coverage) &lt; 80% bắt buộc tạm dừng chia cổ tức bằng tiền mặt, dồn 100% lợi nhuận giữ lại để lập đệm dự phòng rủi ro.</li>
-        <li>Tích cực gia tăng và củng cố vốn tự có (Equity Ratio) nhằm tăng cường độ dày đệm phòng thủ.</li>
-      </ul>
+      <div class="flex-grow text-[9px] leading-[1.3] text-slate-600 text-justify">
+        <strong class="text-slate-800">Kỷ luật Gene 2 (Quản trị Nợ xấu):</strong> Chấm dứt chiến lược "tăng trưởng bằng mọi giá" qua đòn bẩy cao. Các ngân hàng có tỷ lệ bao phủ (Coverage) &lt; 80% bắt buộc phải tạm dừng chia cổ tức bằng tiền mặt, dồn 100% lợi nhuận giữ lại để lập đệm dự phòng rủi ro và củng cố vốn tự có (Equity Ratio).
+      </div>
     </div>
 
-    <!-- Cột 3 -->
-    <div class="bg-slate-50/80 border border-slate-100 rounded-lg p-2.5 flex flex-col justify-start">
-      <div class="flex items-center space-x-1.5 mb-1.5 pb-1 border-b border-[#003366]/20">
-        <span class="text-[11px]">⚡</span>
-        <strong class="text-[10px] text-slate-800 uppercase font-bold text-[#003366]">Đa dạng Gene 3: Thu ngoài lãi & Opex</strong>
+    <!-- Dòng 3 -->
+    <div class="bg-slate-50/80 border border-slate-100 rounded-lg p-2 flex items-start space-x-3">
+      <div class="flex-shrink-0 w-28 border-r border-slate-200 pr-2 flex flex-col justify-center min-h-[50px]">
+        <div class="flex items-center space-x-1">
+          <span class="text-[10px]">⚡</span>
+          <strong class="text-[9px] text-[#003366] uppercase font-bold tracking-wider">Gene 3: Thu Ngoài</strong>
+        </div>
+        <span class="text-[7.5px] text-slate-400 font-semibold mt-0.5">Thu thuần dịch vụ & CIR</span>
       </div>
-      <p class="text-[9.5px] leading-[1.3] text-slate-600 text-justify">
-        Dịch chuyển cơ cấu doanh thu và tối ưu hóa năng lực vận hành thực tế:
-      </p>
-      <ul class="list-disc pl-3.5 mt-1 space-y-1 text-[9px] leading-[1.25] text-slate-500 text-justify">
-        <li>Dịch chuyển trọng tâm sang Fee Income (mục tiêu &gt;15% TOI) thông qua thanh toán số và Bancassurance thực chất.</li>
-        <li>Quyết liệt ứng dụng eKYC và RPA để tối ưu chi phí nhân sự, ép tỷ lệ CIR xuống dưới mức chuẩn tối ưu <strong class="text-[#0D9488]">35%</strong>.</li>
-      </ul>
+      <div class="flex-grow text-[9px] leading-[1.3] text-slate-600 text-justify">
+        <strong class="text-slate-800">Đa dạng hóa Gene 3 (Thu nhập ngoài lãi & Opex):</strong> Dịch chuyển trọng tâm doanh thu sang Fee Income (mục tiêu &gt;15% TOI) thông qua thanh toán số và Bancassurance thực chất. Quyết liệt ứng dụng eKYC và RPA để tối ưu chi phí nhân sự, ép tỷ lệ CIR xuống dưới mức chuẩn 35%.
+      </div>
     </div>
   </div>
 </div>
@@ -1392,73 +1386,61 @@ transition: slide-left
 
 <div class="w-full flex flex-col justify-start h-[395px] mt-1 text-slate-700">
   <!-- Lời dẫn nhập -->
-  <div class="bg-slate-50 border-l-4 border-slate-400 rounded-r-md px-3 py-1 text-[9.5px] leading-[1.25] text-slate-600 font-medium mb-2.5 text-justify">
+  <div class="bg-slate-50 border-l-4 border-slate-400 rounded-r-md px-3 py-1 text-[9.5px] leading-[1.25] text-slate-600 font-medium mb-2 text-justify">
     <strong class="text-slate-800">Vấn đề cốt lõi:</strong> Sự phân hóa cực độ trên bản đồ PCA giữa 4 cụm chiến lược yêu cầu các phác đồ điều trị riêng biệt, giải quyết chính xác "gene thiếu hụt" của từng nhóm ngân hàng cụ thể.
   </div>
 
-  <!-- 4 Cột phân cụm -->
-  <div class="grid grid-cols-4 gap-2 flex-1">
-    <!-- Star -->
-    <div class="bg-[#d1fae5]/40 border border-[#10B981]/25 rounded-lg p-2 flex flex-col justify-between">
-      <div>
-        <div class="flex items-center space-x-1 mb-1.5 pb-1 border-b border-[#10B981]/20">
-          <span class="text-[#065f46] text-[8px] font-bold bg-[#d1fae5] px-1 rounded">🟢 NGÔI SAO</span>
-        </div>
-        <div class="text-[8px] text-slate-400 font-semibold mb-1">Điển hình: NH 4, NH 7</div>
-        <p class="text-[8.5px] leading-[1.2] text-slate-600 text-justify">
-          <strong class="text-slate-700">Vấn đề:</strong> Đối mặt giới hạn tăng trưởng của tín dụng truyền thống.
-        </p>
-        <p class="text-[8.5px] leading-[1.2] text-slate-500 mt-1 text-justify">
-          <strong class="text-slate-700">Giải pháp khắc phục:</strong> Khai thác đệm vốn dày (Equity &gt; 10%) và CASA &gt; 30% để nhân bản mô hình thu phí thanh toán và Wealth Management. Đẩy mạnh chuyển dịch sang xuất khẩu nền tảng công nghệ số nội bộ.
-        </p>
+  <!-- Các dòng phân cụm -->
+  <div class="flex flex-col space-y-1.5 flex-grow">
+    <!-- Cụm Star -->
+    <div class="bg-[#d1fae5]/30 border border-[#10B981]/15 rounded-lg p-1.5 flex items-start space-x-2.5">
+      <div class="flex-shrink-0 w-28 border-r border-[#10B981]/25 pr-2 flex flex-col justify-center min-h-[40px]">
+        <span class="text-[#065f46] text-[8px] font-bold bg-[#d1fae5] px-1 rounded w-fit uppercase">🟢 Ngôi Sao</span>
+        <span class="text-[7px] text-slate-400 font-semibold mt-0.5">Điển hình: NH 4, NH 7</span>
+      </div>
+      <div class="flex-grow text-[8.5px] leading-[1.25] text-slate-600 text-justify">
+        <strong class="text-slate-700">Vấn đề:</strong> Đối mặt giới hạn tăng trưởng của tín dụng truyền thống.
+        <span class="text-slate-400 font-bold mx-1">|</span>
+        <strong class="text-slate-700">Giải pháp khắc phục:</strong> Khai thác đệm vốn dày (Equity &gt; 10%) và CASA &gt; 30% để nhân bản mô hình thu phí thanh toán và Wealth Management. Đẩy mạnh chuyển dịch sang xuất khẩu nền tảng công nghệ số nội bộ.
       </div>
     </div>
 
-    <!-- Stable -->
-    <div class="bg-[#003366]/5 border border-[#003366]/20 rounded-lg p-2 flex flex-col justify-between">
-      <div>
-        <div class="flex items-center space-x-1 mb-1.5 pb-1 border-b border-[#003366]/20">
-          <span class="text-[#003366] text-[8px] font-bold bg-[#003366]/10 px-1 rounded">🔵 ỔN ĐỊNH</span>
-        </div>
-        <div class="text-[8px] text-slate-400 font-semibold mb-1">Điển hình: NH 11, NH 14</div>
-        <p class="text-[8.5px] leading-[1.2] text-slate-600 text-justify">
-          <strong class="text-slate-700">Vấn đề:</strong> Tỷ lệ CASA chưa tối ưu (nhiều NH hiện đang dưới 15%), dễ tổn thương khi lãi suất huy động biến động.
-        </p>
-        <p class="text-[8.5px] leading-[1.2] text-slate-500 mt-1 text-justify">
-          <strong class="text-slate-700">Giải pháp khắc phục:</strong> Áp dụng ngay chiến lược "Digital Payroll" (trả lương qua tài khoản B2B2C) để kéo CASA tự nhiên. Tự động hóa quy trình phê duyệt tín dụng (Auto-Approval) để tiết giảm CIR, bảo vệ Profit Margin.
-        </p>
+    <!-- Cụm Stable -->
+    <div class="bg-[#003366]/5 border border-[#003366]/15 rounded-lg p-1.5 flex items-start space-x-2.5">
+      <div class="flex-shrink-0 w-28 border-r border-[#003366]/20 pr-2 flex flex-col justify-center min-h-[40px]">
+        <span class="text-[#003366] text-[8px] font-bold bg-[#003366]/10 px-1 rounded w-fit uppercase">🔵 Ổn Định</span>
+        <span class="text-[7px] text-slate-400 font-semibold mt-0.5">Điển hình: NH 11, NH 14</span>
+      </div>
+      <div class="flex-grow text-[8.5px] leading-[1.25] text-slate-600 text-justify">
+        <strong class="text-slate-700">Vấn đề:</strong> Tỷ lệ CASA chưa tối ưu (nhiều NH hiện đang dưới 15%), dễ tổn thương khi lãi suất huy động biến động.
+        <span class="text-slate-400 font-bold mx-1">|</span>
+        <strong class="text-slate-700">Giải pháp khắc phục:</strong> Áp dụng ngay chiến lược "Digital Payroll" (trả lương qua tài khoản B2B2C) để kéo CASA tự nhiên. Tự động hóa quy trình phê duyệt tín dụng (Auto-Approval) để tiết giảm CIR, bảo vệ Profit Margin.
       </div>
     </div>
 
-    <!-- Transition -->
-    <div class="bg-[#fef3c7]/40 border border-[#E67E22]/20 rounded-lg p-2 flex flex-col justify-between">
-      <div>
-        <div class="flex items-center space-x-1 mb-1.5 pb-1 border-b border-[#E67E22]/20">
-          <span class="text-[#92400e] text-[8px] font-bold bg-[#fef3c7] px-1 rounded">🟡 CHUYỂN ĐỔI</span>
-        </div>
-        <div class="text-[8px] text-slate-400 font-semibold mb-1">Điển hình: NH 15, NH 19</div>
-        <p class="text-[8.5px] leading-[1.2] text-slate-600 text-justify">
-          <strong class="text-slate-700">Vấn đề:</strong> LDR căng thẳng (&gt;100%), NIM bị nén và CIR kém hiệu quả.
-        </p>
-        <p class="text-[8.5px] leading-[1.2] text-slate-500 mt-1 text-justify">
-          <strong class="text-slate-700">Giải pháp khắc phục:</strong> Cắt giảm quyết liệt mạng lưới chi nhánh vật lý truyền thống dư thừa. Tái cấu trúc danh mục, dịch chuyển chi phí đầu tư sang IT để thúc đẩy tỷ trọng Fee/TOI lên mức 15-20%, bù đắp đà suy giảm của lãi.
-        </p>
+    <!-- Cụm Transition -->
+    <div class="bg-[#fef3c7]/30 border border-[#E67E22]/15 rounded-lg p-1.5 flex items-start space-x-2.5">
+      <div class="flex-shrink-0 w-28 border-r border-[#E67E22]/20 pr-2 flex flex-col justify-center min-h-[40px]">
+        <span class="text-[#92400e] text-[8px] font-bold bg-[#fef3c7] px-1 rounded w-fit uppercase">🟡 Chuyển Đổi</span>
+        <span class="text-[7px] text-slate-400 font-semibold mt-0.5">Điển hình: NH 15, NH 19</span>
+      </div>
+      <div class="flex-grow text-[8.5px] leading-[1.25] text-slate-600 text-justify">
+        <strong class="text-slate-700">Vấn đề:</strong> LDR căng thẳng (&gt;100%), NIM bị nén và CIR kém hiệu quả.
+        <span class="text-slate-400 font-bold mx-1">|</span>
+        <strong class="text-slate-700">Giải pháp khắc phục:</strong> Cắt giảm quyết liệt mạng lưới chi nhánh vật lý truyền thống dư thừa. Tái cấu trúc danh mục, dịch chuyển chi phí đầu tư sang IT để thúc đẩy tỷ trọng Fee/TOI lên mức 15-20%, bù đắp đà suy giảm của lãi.
       </div>
     </div>
 
-    <!-- Monitor -->
-    <div class="bg-[#fee2e2]/40 border border-[#C0392B]/20 rounded-lg p-2 flex flex-col justify-between">
-      <div>
-        <div class="flex items-center space-x-1 mb-1.5 pb-1 border-b border-[#C0392B]/20">
-          <span class="text-[#991b1b] text-[8px] font-bold bg-[#fee2e2] px-1 rounded">🔴 GIÁM SÁT</span>
-        </div>
-        <div class="text-[8px] text-slate-400 font-semibold mb-1">Điển hình: NH 22, NH 8</div>
-        <p class="text-[8.5px] leading-[1.2] text-slate-600 text-justify">
-          <strong class="text-slate-700">Vấn đề:</strong> Nợ xấu bùng nổ, Coverage bốc hơi (&lt;55%), vốn chủ cạn kiệt, đe dọa an toàn hệ thống (Equity &lt; 6%).
-        </p>
-        <p class="text-[8.5px] leading-[1.2] text-slate-500 mt-1 text-justify">
-          <strong class="text-slate-700">Giải pháp khắc phục:</strong> Đóng băng ngay việc mở rộng tín dụng vào lĩnh vực rủi ro (BĐS). Ưu tiên sinh tử là gọi vốn cấp 1 từ cổ đông chiến lược để vá đệm vốn, tích cực thu hồi tài sản và dọn sạch trái phiếu VAMC bằng mọi giá thay vì tìm kiếm lợi nhuận.
-        </p>
+    <!-- Cụm Monitor -->
+    <div class="bg-[#fee2e2]/30 border border-[#C0392B]/15 rounded-lg p-1.5 flex items-start space-x-2.5">
+      <div class="flex-shrink-0 w-28 border-r border-[#C0392B]/20 pr-2 flex flex-col justify-center min-h-[40px]">
+        <span class="text-[#991b1b] text-[8px] font-bold bg-[#fee2e2] px-1 rounded w-fit uppercase">🔴 Giám Sát</span>
+        <span class="text-[7px] text-slate-400 font-semibold mt-0.5">Điển hình: NH 22, NH 8</span>
+      </div>
+      <div class="flex-grow text-[8.5px] leading-[1.25] text-slate-600 text-justify">
+        <strong class="text-slate-700">Vấn đề:</strong> Nợ xấu bùng nổ, Coverage bốc hơi (&lt;55%), vốn chủ cạn kiệt, đe dọa an toàn hệ thống (Equity &lt; 6%).
+        <span class="text-slate-400 font-bold mx-1">|</span>
+        <strong class="text-slate-700">Giải pháp khắc phục:</strong> Đóng băng ngay việc mở rộng tín dụng vào lĩnh vực rủi ro (BĐS). Ưu tiên sinh tử là gọi vốn cấp 1 từ cổ đông chiến lược để vá đệm vốn, tích cực thu hồi tài sản và dọn sạch trái phiếu VAMC bằng mọi giá thay vì tìm kiếm lợi nhuận.
       </div>
     </div>
   </div>
