@@ -13,7 +13,7 @@ import pandas as pd
 from scipy.interpolate import PchipInterpolator
 
 # ─── Setup ───────────────────────────────────────────────────────────────
-plt.rcParams['font.sans-serif'] = ['Arial', 'DejaVu Sans']
+plt.rcParams['font.sans-serif'] = ['Segoe UI', 'Arial', 'Helvetica', 'DejaVu Sans']
 plt.rcParams['font.family'] = 'sans-serif'
 plt.rcParams['text.color'] = '#1e293b'
 plt.rcParams['axes.labelcolor'] = '#334155'
@@ -27,6 +27,8 @@ AZURE        = '#007FFF'  # Azure
 DODGER       = '#3399FF'  # Dodger blue
 FRENCH_SKY   = '#66B2FF'  # French Sky Blue
 BABY_BLUE    = '#99CCFF'  # Baby Blue Eyes
+SECONDARY_ORANGE = '#E67300'  # High contrast orange for line charts
+
 
 GRID_COLOR   = '#f1f5f9'
 SPINE_COLOR  = '#cbd5e1'
@@ -84,27 +86,27 @@ x_smooth = np.linspace(0, len(years)-1, 300)
 pchip = PchipInterpolator(x, gdp_growth)
 y_smooth = pchip(x_smooth)
 
-# GDP Line in Dodger Blue
-ax2.plot(x_smooth, y_smooth, color=DODGER, linewidth=2.0, linestyle=':', label='Tăng trưởng GDP (%)', zorder=5)
-ax2.plot(x, gdp_growth, color=DODGER, marker='o', markersize=5.5, markerfacecolor='white', markeredgewidth=1.8, linestyle='None', zorder=6)
+# GDP Line in SECONDARY_ORANGE
+ax2.plot(x_smooth, y_smooth, color=SECONDARY_ORANGE, linewidth=2.0, linestyle=':', label='Tăng trưởng GDP (%)', zorder=5)
+ax2.plot(x, gdp_growth, color=SECONDARY_ORANGE, marker='o', markersize=5.5, markerfacecolor='white', markeredgewidth=1.8, linestyle='None', zorder=6)
 
 ax2.set_ylabel('Tăng trưởng GDP (%)', fontsize=FS_LABEL, fontweight='bold', labelpad=4, color=TEXT_MID)
 ax2.set_ylim(0, 10)
 ax2.yaxis.set_major_formatter(mticker.FormatStrFormatter('%.1f%%'))
 ax2.tick_params(axis='y', labelsize=FS_TICK)
 
-# Value annotations for bars
-for bar in bars:
-    h = bar.get_height()
-    ax1.annotate(f'{h:.2f}T', xy=(bar.get_x() + bar.get_width()/2, h),
-                 xytext=(0, 2), textcoords='offset points',
-                 ha='center', va='bottom', fontsize=FS_VAL, fontweight='bold', color=NAVY_DARK)
+# Value annotations for bars (Disabled per user request)
+# for bar in bars:
+#     h = bar.get_height()
+#     ax1.annotate(f'{h:.2f}T', xy=(bar.get_x() + bar.get_width()/2, h),
+#                  xytext=(0, 2), textcoords='offset points',
+#                  ha='center', va='bottom', fontsize=FS_VAL, fontweight='bold', color=NAVY_DARK)
 
 # Value annotations for GDP line
 for i, val in enumerate(gdp_growth):
     ax2.annotate(f'{val:.2f}%', xy=(i, val), xytext=(0, 5),
                  textcoords='offset points', ha='center', va='bottom',
-                 fontsize=FS_VAL, fontweight='bold', color=DODGER)
+                 fontsize=FS_VAL, fontweight='bold', color=SECONDARY_ORANGE)
 
 ax1.grid(True, axis='y', linestyle='--', color=GRID_COLOR, zorder=0)
 ax1.set_axisbelow(True)
@@ -114,10 +116,10 @@ ax1.spines['left'].set_color(SPINE_COLOR)
 ax1.spines['bottom'].set_color(SPINE_COLOR)
 ax2.spines['right'].set_color(SPINE_COLOR)
 
-# Combined Legend
+# Combined Legend at bottom
 h1, l1 = ax1.get_legend_handles_labels()
 h2, l2 = ax2.get_legend_handles_labels()
-ax1.legend(h1 + h2, l1 + l2, loc='upper left', frameon=False, fontsize=FS_LEG)
+ax1.legend(h1 + h2, l1 + l2, loc='upper center', bbox_to_anchor=(0.5, -0.15), ncol=2, frameon=False, fontsize=FS_LEG)
 
 # Chart Title
 ax1.set_title('Tài sản Ngành & Phục hồi GDP Vĩ mô (2020 – 2024)', fontsize=FS_TITLE, fontweight='bold', pad=10, color=TEXT_DARK)
@@ -145,32 +147,32 @@ ax1.set_xticklabels(year_labels, fontsize=FS_TICK)
 ax1.set_ylim(0, max(vcsh_vals) * 1.30)
 ax1.tick_params(axis='y', labelsize=FS_TICK)
 
-# Dual Axis: Equity/TTS ratio (French Sky Blue - high contrast and allowed navy)
+# Dual Axis: Equity/TTS ratio (SECONDARY_ORANGE for contrast and allowed accent color)
 ax2 = ax1.twinx()
 pchip = PchipInterpolator(x, equity_ratio)
 y_smooth = pchip(x_smooth)
 
-ax2.plot(x_smooth, y_smooth, color=FRENCH_SKY, linewidth=2.0, linestyle=':', label='Tỷ lệ Equity/TTS', zorder=5)
-ax2.plot(x, equity_ratio, color=FRENCH_SKY, marker='o', markersize=5.5, markerfacecolor='white', markeredgewidth=1.8, linestyle='None', zorder=6)
+ax2.plot(x_smooth, y_smooth, color=SECONDARY_ORANGE, linewidth=2.0, linestyle=':', label='Tỷ lệ Equity/TTS', zorder=5)
+ax2.plot(x, equity_ratio, color=SECONDARY_ORANGE, marker='o', markersize=5.5, markerfacecolor='white', markeredgewidth=1.8, linestyle='None', zorder=6)
 
 ax2.set_ylabel('Equity / TTS (%)', fontsize=FS_LABEL, fontweight='bold', labelpad=4, color=TEXT_MID)
 ax2.set_ylim(5, 10)
 ax2.yaxis.set_major_formatter(mticker.FormatStrFormatter('%.2f%%'))
 ax2.tick_params(axis='y', labelsize=FS_TICK)
 
-# Annotate VĐL Bars
-for bar in bars1:
-    h = bar.get_height()
-    ax1.annotate(f'{h:,.0f}', xy=(bar.get_x() + bar.get_width()/2, h), xytext=(0, 2), textcoords='offset points', ha='center', va='bottom', fontsize=FS_VAL-0.5, fontweight='bold', color=NAVY_DARK)
+# Annotate VĐL Bars (Disabled per user request)
+# for bar in bars1:
+#     h = bar.get_height()
+#     ax1.annotate(f'{h:,.0f}', xy=(bar.get_x() + bar.get_width()/2, h), xytext=(0, 2), textcoords='offset points', ha='center', va='bottom', fontsize=FS_VAL-0.5, fontweight='bold', color=NAVY_DARK)
 
-# Annotate VCSH Bars
-for bar in bars2:
-    h = bar.get_height()
-    ax1.annotate(f'{h:,.0f}', xy=(bar.get_x() + bar.get_width()/2, h), xytext=(0, 2), textcoords='offset points', ha='center', va='bottom', fontsize=FS_VAL-0.5, fontweight='bold', color=NAVY_MID_D)
+# Annotate VCSH Bars (Disabled per user request)
+# for bar in bars2:
+#     h = bar.get_height()
+#     ax1.annotate(f'{h:,.0f}', xy=(bar.get_x() + bar.get_width()/2, h), xytext=(0, 2), textcoords='offset points', ha='center', va='bottom', fontsize=FS_VAL-0.5, fontweight='bold', color=NAVY_MID_D)
 
 # Annotate Equity/TTS Line
 for i, val in enumerate(equity_ratio):
-    ax2.annotate(f'{val:.2f}%', xy=(i, val), xytext=(0, 5), textcoords='offset points', ha='center', va='bottom', fontsize=FS_VAL, fontweight='bold', color=FRENCH_SKY)
+    ax2.annotate(f'{val:.2f}%', xy=(i, val), xytext=(0, 5), textcoords='offset points', ha='center', va='bottom', fontsize=FS_VAL, fontweight='bold', color=SECONDARY_ORANGE)
 
 ax1.grid(True, axis='y', linestyle='--', color=GRID_COLOR, zorder=0)
 ax1.set_axisbelow(True)
@@ -180,10 +182,10 @@ ax1.spines['left'].set_color(SPINE_COLOR)
 ax1.spines['bottom'].set_color(SPINE_COLOR)
 ax2.spines['right'].set_color(SPINE_COLOR)
 
-# Combined Legend
+# Combined Legend at bottom
 h1, l1 = ax1.get_legend_handles_labels()
 h2, l2 = ax2.get_legend_handles_labels()
-ax1.legend(h1 + h2, l1 + l2, loc='upper left', frameon=False, fontsize=FS_LEG)
+ax1.legend(h1 + h2, l1 + l2, loc='upper center', bbox_to_anchor=(0.5, -0.15), ncol=3, frameon=False, fontsize=FS_LEG)
 
 # Chart Title
 ax1.set_title('Tăng trưởng Vốn & Tỷ lệ An toàn Hệ thống (2020 – 2024)', fontsize=FS_TITLE, fontweight='bold', pad=10, color=TEXT_DARK)

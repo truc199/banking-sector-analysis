@@ -134,7 +134,8 @@ def main():
         'grid.color': '#E5E8E8',
         'grid.linestyle': '--',
         'figure.facecolor': '#FFFFFF',
-        'font.family': 'sans-serif'
+        'font.family': 'sans-serif',
+        'font.sans-serif': ['Segoe UI', 'Arial', 'Helvetica', 'DejaVu Sans']
     })
 
     # Custom premium palette

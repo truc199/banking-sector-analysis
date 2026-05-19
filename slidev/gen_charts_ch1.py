@@ -10,7 +10,7 @@ import pandas as pd
 from scipy.interpolate import PchipInterpolator
 
 # ─── Setup ───────────────────────────────────────────────────────────────
-plt.rcParams['font.sans-serif'] = ['Arial', 'DejaVu Sans']
+plt.rcParams['font.sans-serif'] = ['Segoe UI', 'Arial', 'Helvetica', 'DejaVu Sans']
 plt.rcParams['font.family'] = 'sans-serif'
 plt.rcParams['text.color'] = '#334155'
 plt.rcParams['axes.labelcolor'] = '#334155'

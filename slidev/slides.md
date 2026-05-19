@@ -20,39 +20,29 @@ title: Vualidon.FP Financial Analysis
 <template #title>Chương 1: Quy mô &amp; Tăng trưởng</template>
 <template #subtitle>Phân tích toàn diện Quy mô Hệ thống &amp; Năng lực Vốn hóa Ngành Ngân hàng Việt Nam (2020 – 2024)</template>
 
-<div class="grid grid-cols-12 gap-x-6 mt--2 text-slate-700">
-  <!-- CỘT TRÁI (col-span-8) -->
-  <div class="col-span-8 flex flex-col justify-start h-[430px] pr-2">
-    <div class="space-y-1.5 mb-2 text-justify text-[12px] leading-[1.25] text-slate-600 font-medium">
+<div class="grid grid-cols-12 gap-x-6 mt--4 text-slate-700">
+  <!-- CỘT TRÁI (col-span-7) -->
+  <div class="col-span-7 flex flex-col justify-start h-[430px] pr-2">
+    <div class="space-y-4 mb-2 text-justify text-[12px] leading-[1.38] text-slate-600 font-medium animate-fade-in-left">
       <p>
         <span class="text-[#003366] font-bold mr-1">♦</span>
-        <strong class="text-slate-800">Quy mô tài sản phục hồi đồng pha vĩ mô (Slide 1.1):</strong>
-        Tổng tài sản toàn hệ thống vọt từ <span class="font-bold text-[#003366]">10.87 triệu tỷ VND</span> (2020) lên <span class="font-bold text-[#003366]">19.31 triệu tỷ VND</span> (2024), đạt CAGR ấn tượng <span class="font-bold text-[#003366]">+15.5%</span>. Tốc độ tăng trưởng tài sản đồng pha với đà phục hồi GDP vĩ mô (vọt từ đáy năm 2020 lên năm 2024), trong đó tăng trưởng tài sản đạt mức cao <span class="font-bold text-[#003366]">+16.25%</span> vào năm 2022 khi GDP chạm đỉnh.
+        <strong class="text-[#003366] text-[12.5px]">Tài sản mở rộng mạnh mẽ đồng pha vĩ mô:</strong><br />
+        Tổng tài sản toàn ngành ghi nhận <span class="font-bold text-slate-800">đà tăng trưởng liên tục qua các năm</span>, phản ánh sự mở rộng nhanh chóng về mặt quy mô của hệ thống tài chính Việt Nam. Quy mô tài sản được "bơm lực" trực tiếp từ đà phục hồi mạnh mẽ của nền kinh tế vĩ mô, cụ thể là tốc độ tăng trưởng GDP bứt tốc từ vùng đáy đại dịch <span class="font-bold text-[#E67300]">2.91% (năm 2020)</span> lên mức <span class="font-bold text-[#E67300]">7.09% (năm 2024)</span>.
       </p>
       <p>
-        <span class="text-[#3399FF] font-bold mr-1">♦</span>
-        <strong class="text-slate-800">Năng lực vốn hóa mở rộng vững chắc (Slide 1.2):</strong>
-        Vốn chủ sở hữu (VCSH) tăng hơn 2.05 lần lên <span class="font-bold text-[#3399FF]">1,612.4 nghìn tỷ VND</span> (<span class="font-bold text-[#3399FF]">+19.7%</span>), song hành cùng vốn điều lệ đạt <span class="font-bold text-[#003366]">816.7 nghìn tỷ VND</span> (<span class="font-bold text-[#003366]">+17.7%</span>). Nhờ đà tích lũy vốn tự có vượt trội hơn mở rộng tài sản, tỷ lệ an toàn vốn hệ thống (Equity/TTS) tăng từ <span class="font-bold text-[#3399FF]">7.23%</span> lên <span class="font-bold text-[#3399FF]">8.35%</span> (trung bình đơn giản tăng từ <span class="font-bold text-[#3399FF]">9.27%</span> lên <span class="font-bold text-[#3399FF]">11.45%</span>).
+        <span class="text-[#E67300] font-bold mr-1">♦</span>
+        <strong class="text-[#E67300] text-[12.5px]">Đệm vốn suy yếu dưới áp lực đòn bẩy rủi ro:</strong><br />
+        Tăng trưởng vốn chủ sở hữu (CSH) và vốn điều lệ chững lại trong giai đoạn 2022–2024, khiến tỷ lệ an toàn vốn trung bình (được đo lường bằng tỷ lệ Equity/TTS) <span class="font-bold text-[#E67300]">giảm nhẹ từ mức đỉnh 9.15% (năm 2022) xuống còn 8.77% (năm 2024)</span>. Mức sụt giảm <span class="font-bold text-[#E67300]">0.38 điểm phần trăm (pp)</span> trong 2 năm qua cho thấy các ngân hàng đang có xu hướng <span class="font-bold text-slate-800">tăng cường sử dụng đòn bẩy tài chính</span> để tối ưu lợi nhuận thay vì củng cố đệm vốn. Đáng chú ý, hệ thống xuất hiện sự phân hóa rủi ro lớn khi có <span class="font-bold text-[#E67300]">5 ngân hàng sở hữu đệm vốn mỏng dưới 6%</span> (tiệm cận mức cảnh báo nguy hiểm), đặt nhóm này trước <span class="font-bold text-rose-600 font-bold">rủi ro tổn thương cực lớn</span> khi chất lượng tài sản suy giảm đột ngột.
       </p>
-      <p>
-        <span class="text-[#0D9488] font-bold mr-1">♦</span>
-        <strong class="text-slate-800">Phân hóa sâu sắc &amp; Cảnh báo an toàn (Slide 1.3):</strong>
-        Biên độ chênh lệch tỷ lệ an toàn vốn năm 2024 rộng tới <span class="font-bold text-[#0D9488]">10.80pp</span> giữa ngân hàng đứng đầu (15.94%) và ngân hàng cuối bảng (5.14%). Toàn hệ thống ghi nhận có <span class="font-bold text-[#0D9488]">5 ngân hàng</span> rơi vào vùng cảnh báo với đệm vốn mỏng dưới ngưỡng tối thiểu, đối mặt áp lực thanh khoản lớn khi tín dụng tăng nóng.
-      </p>
-    </div>
-    <div class="grid grid-cols-2 gap-4 mt-1">
-      <div class="w-full h-[220px]">
-        <img src="./public/total_assets_vs_gdp.png" class="h-full w-full object-contain" />
-      </div>
-      <div class="w-full h-[220px]">
-        <img src="./public/slide_1_2_capital.png" class="h-full w-full object-contain" />
-      </div>
     </div>
   </div>
-  <!-- CỘT PHẢI (col-span-4) -->
-  <div class="col-span-4 flex flex-col justify-start h-[430px] pl-3 border-l border-slate-200/60">
-    <div class="w-full h-[430px]">
-      <img src="./public/slide_1_3_equity_dispersion.png" class="h-full w-full object-contain" />
+  <!-- CỘT PHẢI (col-span-5) -->
+  <div class="col-span-5 flex flex-col gap-2 justify-center h-[430px] pl-4 border-l border-slate-200/60">
+    <div class="w-full h-[205px]">
+      <img src="./public/total_assets_vs_gdp.png" class="h-full w-full object-contain" />
+    </div>
+    <div class="w-full h-[205px] mt-1">
+      <img src="./public/slide_1_2_capital.png" class="h-full w-full object-contain" />
     </div>
   </div>
 </div>
@@ -61,6 +51,44 @@ title: Vualidon.FP Financial Analysis
 </ImpressiveHeader>
 
 ---
+transition: slide-left
+---
+
+<ImpressiveHeader>
+<template #title>Chương 1: Phân hóa Đệm Vốn &amp; Cảnh báo Hệ thống</template>
+<template #subtitle>Phân tích Mức độ Phân hóa Tỷ lệ Equity/TTS &amp; Nhóm Ngân hàng Cảnh báo rủi ro (2024)</template>
+
+<div class="grid grid-cols-12 gap-x-6 mt--4 text-slate-700">
+  <!-- CỘT TRÁI (col-span-7) -->
+  <div class="col-span-7 flex flex-col justify-start h-[430px] pr-2">
+    <div class="space-y-4 mb-2 text-justify text-[12px] leading-[1.38] text-slate-600 font-medium animate-fade-in-left">
+      <p>
+        <span class="text-[#003366] font-bold mr-1">♦</span>
+        <strong class="text-[#003366] text-[12.5px]">Sự phân hóa sâu sắc tiềm lực tài chính nội tại:</strong><br />
+        Hệ thống ngân hàng Việt Nam ghi nhận sự chênh lệch cực kỳ lớn về tiềm lực tài chính khi khoảng cách về tỷ lệ Equity/TTS (Equity Ratio) năm 2024 đạt tới <span class="font-bold text-[#E67300]">10.80 điểm phần trăm (pp)</span> giữa nhóm dẫn đầu và nhóm cuối bảng (khoảng cách trung bình giai đoạn 2022–2024 lên tới <span class="font-bold text-[#E67300]">11.44 pp</span>). Hệ thống phân chia thành hai thái cực rõ rệt, phản ánh sự khác biệt lớn trong chiến lược quản trị rủi ro và tích lũy vốn tự có của từng ngân hàng.
+      </p>
+      <p>
+        <span class="text-[#3399FF] font-bold mr-1">♦</span>
+        <strong class="text-[#3399FF] text-[12.5px]">Nhóm dẫn đầu sở hữu đệm vốn vượt trội:</strong><br />
+        Đại diện tiêu biểu là các ngân hàng đứng đầu hệ thống như <span class="font-bold text-[#003366]">NH 8 (15.94%)</span> và <span class="font-bold text-[#003366]">NH 7 (15.11%)</span>, vượt xa mức trung bình đơn giản toàn hệ thống (8.77%). Tỷ lệ Equity/TTS vượt trội này tạo hành lang an toàn vững chắc, giúp nhóm này dễ dàng hấp thụ các cú sốc tín dụng và duy trì dư địa tăng trưởng tài sản lớn.
+      </p>
+      <p>
+        <span class="text-rose-600 font-bold mr-1">♦</span>
+        <strong class="text-rose-600 text-[12.5px]">Báo động đệm vốn mỏng tại nhóm cuối bảng:</strong><br />
+        Toàn hệ thống ghi nhận có <span class="font-bold text-rose-600">5 ngân hàng rơi vào vùng cảnh báo nguy hiểm</span> sở hữu tỷ lệ Equity/TTS dưới 6% (mức đệm vốn cực mỏng), đứng đầu là <span class="font-bold text-rose-600">NH 22 (5.14%)</span>, <span class="font-bold text-rose-600">NH 1 (5.25%)</span> và <span class="font-bold text-rose-600">NH 24 (5.34%)</span>. Đệm vốn mỏng khiến nhóm này đối diện với nguy cơ tổn thương cực lớn khi chất lượng tài sản suy giảm đột ngột, gây áp lực trực tiếp lên thanh khoản và thanh toán toàn hệ thống.
+      </p>
+    </div>
+  </div>
+  <!-- CỘT PHẢI (col-span-5) -->
+  <div class="col-span-5 flex flex-col justify-center h-[430px] pl-4 border-l border-slate-200/60">
+    <div class="w-full h-[400px]">
+      <img src="./public/slide_1_3_equity_dispersion.png" class="h-full w-full object-contain" />
+    </div>
+  </div>
+</div>
+
+<template #footer-left>Phần I: Bức tranh toàn cảnh | Slide 1.1 - Phân hóa Đệm vốn &amp; Cảnh báo Hệ thống</template>
+</ImpressiveHeader>
 
 <ImpressiveHeader>
 <template #title>Chương 2: Hiệu quả sinh lời &amp; Biên lãi thuần</template>

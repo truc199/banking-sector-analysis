@@ -18,7 +18,7 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 # ─── Setup ───────────────────────────────────────────────────────────────
-matplotlib.rcParams['font.sans-serif'] = ['Arial', 'DejaVu Sans']
+matplotlib.rcParams['font.sans-serif'] = ['Segoe UI', 'Arial', 'Helvetica', 'DejaVu Sans']
 matplotlib.rcParams['font.family'] = 'sans-serif'
 matplotlib.rcParams['text.color'] = '#1e293b'
 matplotlib.rcParams['axes.labelcolor'] = '#334155'
