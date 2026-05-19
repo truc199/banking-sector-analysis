@@ -1,12 +1,4 @@
-﻿---
-title: Vualidon.FP New Presentation
-info: |
-  ## Slidev Starter Template (Scroll-Safe & Single Chart Optimized)
-  Created with ImpressiveCover and ImpressiveHeader templates.
-fonts:
-  sans: 'Roboto'
----
-
+﻿
 <!-- SLIDE 1: COVER PAGE -->
 <ImpressiveCover>
 <template #subtitle>Investment & Financial Evaluation Dossier</template>
@@ -21,118 +13,6 @@ fonts:
 </template>
 </ImpressiveCover>
 
----
-transition: slide-left
----
-
-<!-- SLIDE 2: 50-50 SPLIT (Optimized for HEAVY TEXT + 1 Large Chart, No Scroll) -->
-<ImpressiveHeader>
-<template #title>Tiêu Đề Slide: Bố Cục 50-50 Cho Nhiều Text</template>
-<template #subtitle>Thiết kế tinh gọn, cỡ chữ và dòng tối ưu giúp chứa nhiều thông tin không bị tràn trang</template>
-
-<div class="grid grid-cols-12 gap-x-6  text-slate-700">
-  <!-- CỘT TRÁI (col-span-6) - Tối ưu cho NHIỀU TEXT (Cỡ chữ 11px, dòng 1.3, khoảng cách hẹp) -->
-  <div class="col-span-6 flex flex-col justify-start h-[390px] pr-2">
-    <div class="space-y-2.5 mb-2 text-justify text-[11px] leading-[1.3] text-slate-600 font-medium ">
-      <p>
-        <span class="text-[#003366] font-bold mr-1">♦</span>
-        <strong class="text-[#003366] text-[11.5px]">Đệm vốn và Thanh khoản (Ý chính 1):</strong><br />
-        Bằng cách giảm nhẹ cỡ chữ xuống <span class="font-bold text-slate-800">11px</span> và dòng <span class="font-bold text-slate-800">leading-[1.3]</span>, bạn có thể viết được nhiều nội dung hơn mà hoàn toàn không sợ xuất hiện thanh cuộn (scroll).
-      </p>
-      <p>
-        <span class="text-[#E67300] font-bold mr-1">♦</span>
-        <strong class="text-[#E67300] text-[11.5px]">Kiểm định thực nghiệm giả thuyết (Ý chính 2):</strong><br />
-        Khi trình bày các số liệu phức tạp từ mô hình hồi quy hoặc K-Means, việc trình bày văn bản rõ ràng, súc tích là cực kỳ quan trọng. Hãy sử dụng các màu sắc đồng bộ với biểu đồ để dẫn dắt mắt người đọc.
-      </p>
-      <p>
-        <span class="text-[#0D9488] font-bold mr-1">♦</span>
-        <strong class="text-[#0D9488] text-[11.5px]">Khuyến nghị chiến lược (Ý chính 3):</strong><br />
-        Tóm tắt các hành động cụ thể ở cuối cột văn bản để tạo điểm nhấn kết thúc slide trước khi chuyển tiếp sang nội dung mới.
-      </p>
-    </div>
-  </div>
-
-  <!-- CỘT PHẢI (col-span-6) - 1 Biểu đồ cân đối chiều rộng -->
-  <div class="col-span-6 flex flex-col justify-center h-[390px] pl-4 border-l border-slate-200/60">
-    <div class="w-full h-[370px]">
-      <div class="w-full h-full bg-slate-50 border border-dashed border-slate-300 rounded flex items-center justify-center text-slate-400">
-        [Biểu đồ 1 - Cân đối tỷ lệ 50-50]
-      </div>
-    </div>
-  </div>
-</div>
-
-<template #footer-left>Phần I: Khái Quát | Slide 1.1 - Mẫu Text Nhiều</template>
-</ImpressiveHeader>
-
----
-transition: slide-left
----
-
-<!-- SLIDE 3: 40-60 SPLIT (Text Ít/Trung Bình + Chart To Rõ Nét) -->
-<ImpressiveHeader>
-<template #title>Tiêu Đề Slide: Bố Cục 40-60 (Ưu Tiên Chart)</template>
-<template #subtitle>Tập trung thị giác vào biểu đồ bên trái, text bên phải bổ trợ thông tin</template>
-
-<div class="grid grid-cols-12 gap-x-6  text-slate-700">
-  <!-- CỘT TRÁI (col-span-7) - Chart to chiếm 60% diện tích -->
-  <div class="col-span-7 flex flex-col justify-center h-[390px] pr-4">
-    <div class="w-full h-[370px]">
-      <div class="w-full h-full bg-slate-50 border border-dashed border-slate-300 rounded flex items-center justify-center text-slate-400">
-        [Biểu đồ 2 - Kích thước lớn nổi bật]
-      </div>
-    </div>
-  </div>
-
-  <!-- CỘT PHẢI (col-span-5) - Text ngắn gọn xúc tích (Cỡ 11.5px) -->
-  <div class="col-span-5 flex flex-col justify-start h-[390px] pl-4 border-l border-slate-200/60">
-    <div class="space-y-3 mb-2 text-justify text-[11.5px] leading-[1.3] text-slate-600 font-medium ">
-      <p>
-        <span class="text-rose-600 font-bold mr-1">♦</span>
-        <strong class="text-rose-600 text-[12px]">Điểm nóng dữ liệu:</strong><br />
-        Bố cục này tập trung 60% diện tích cho biểu đồ bên trái để làm nổi bật các biến động lớn. Cột phải chỉ nên chứa 2 ý chính quan trọng nhất.
-      </p>
-      <p>
-        <span class="text-slate-800 font-bold mr-1">♦</span>
-        <strong class="text-slate-800 text-[12px]">Kết luận then chốt:</strong><br />
-        Hạn chế nhồi nhét chữ ở cột này để giữ được khoảng thở (whitespace) cho slide thêm phần sang trọng và chuyên nghiệp.
-      </p>
-    </div>
-  </div>
-</div>
-
-<template #footer-left>Phần I: Khái Quát | Slide 1.2 - Mẫu Ưu Tiên Chart</template>
-</ImpressiveHeader>
-
----
-transition: slide-left
----
-
-<!-- SLIDE 4: FULL-WIDTH CHART (Text Ngắn Trên Đầu + Chart Khổng Lồ Phía Dưới) -->
-<ImpressiveHeader>
-<template #title>Tiêu Đề Slide: Bố Cục Biểu Đồ Toàn Chiều Rộng</template>
-<template #subtitle>Phù hợp cho biểu đồ dạng đường (Time-series) hoặc phân cụm (Scatter) cần hiển thị tối đa</template>
-
-<div class="flex flex-col h-[420px] gap-2 text-slate-700">
-  <!-- PHẦN TRÊN: Tóm tắt 2-3 dòng rất ngắn gọn (Không quá 3 dòng để tránh chiếm diện tích chart) -->
-  <div class="text-[11px] leading-[1.25] text-slate-600 font-medium border-l-[3px] border-[#003366] pl-3 mb-2 flex-shrink-0 text-justify">
-    <strong class="text-slate-800">Thông điệp cốt lõi:</strong>
-    Tóm tắt thật ngắn gọn thông điệp chính tại đây. Bố cục này dành hơn 80% không gian đứng và 100% không gian ngang cho biểu đồ phía dưới, giúp hiển thị các biểu đồ phức tạp mà không bị vỡ hoặc mờ chữ.
-  </div>
-
-  <!-- PHẦN DƯỚI: Biểu đồ toàn chiều rộng, chiều cao cực lớn -->
-  <div class="flex-grow min-h-0">
-    <div class="w-full h-[330px] bg-slate-50 border border-dashed border-slate-300 rounded flex items-center justify-center text-slate-400">
-      [Biểu đồ Full-Width Cực Lớn]
-    </div>
-  </div>
-</div>
-
-<template #footer-left>Phần II: Xu hướng | Slide 2.1 - Mẫu Biểu Đồ Toàn Rộng</template>
-</ImpressiveHeader>
-
----
-transition: slide-left
 ---
 
 <!-- SLIDE MỤC LỤC: Phần I highlighted -->
@@ -632,73 +512,6 @@ transition: slide-left
 <template #footer-left>Phần V: Sức khỏe Tài sản | Slide 5.2 – Tỷ lệ Bao phủ Nợ xấu</template>
 </ImpressiveHeader>
 
----
-transition: fade
-layout: center
----
-
-<!-- SLIDE SUMMARY -->
-<div class="w-full max-w-[900px] bg-white rounded-xl shadow-xl overflow-hidden border border-slate-200 p-8 relative">
-  <!-- Decorative top bar -->
-  <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-[#003366] via-[#0066CC] to-[#00897B]"></div>
-  
-  <div class="text-center mb-8">
-    <h2 class="text-2xl font-bold text-[#003366] mb-2 font-serif">TỔNG HỢP: SCORECARD (2024)</h2>
-    <p class="text-sm text-slate-500 font-medium italic">Bức tranh toàn cảnh: Duy trì tăng trưởng quy mô đi kèm với sự phân hóa sâu sắc và rủi ro tiềm ẩn gia tăng</p>
-  </div>
-  
-  <div class="grid grid-cols-4 gap-4 mb-8">
-    <!-- Sinh lời -->
-    <div class="bg-blue-50/50 rounded-lg p-4 border border-blue-100 flex flex-col items-center justify-center transform transition-transform hover:scale-105">
-      <span class="text-[10px] uppercase font-bold text-blue-800 tracking-wider mb-1">Sinh lời (ROA)</span>
-      <span class="text-2xl font-bold text-[#003366]">1.04%</span>
-      <span class="text-[9px] text-blue-600 font-medium mt-1">Trạng thái đi ngang</span>
-    </div>
-    <div class="bg-blue-50/50 rounded-lg p-4 border border-blue-100 flex flex-col items-center justify-center transform transition-transform hover:scale-105">
-      <span class="text-[10px] uppercase font-bold text-blue-800 tracking-wider mb-1">Sinh lời (ROE)</span>
-      <span class="text-2xl font-bold text-[#003366]">11.23%</span>
-      <span class="text-[9px] text-blue-600 font-medium mt-1">Đà tăng trưởng chững lại</span>
-    </div>
-    <div class="bg-indigo-50/50 rounded-lg p-4 border border-indigo-100 flex flex-col items-center justify-center transform transition-transform hover:scale-105">
-      <span class="text-[10px] uppercase font-bold text-indigo-800 tracking-wider mb-1">Biên lãi (NIM)</span>
-      <span class="text-2xl font-bold text-[#003366]">2.79%</span>
-      <span class="text-[9px] text-indigo-600 font-medium mt-1">Thu hẹp đáng kể</span>
-    </div>
-    <div class="bg-indigo-50/50 rounded-lg p-4 border border-indigo-100 flex flex-col items-center justify-center transform transition-transform hover:scale-105">
-      <span class="text-[10px] uppercase font-bold text-indigo-800 tracking-wider mb-1">Chi phí (CIR)</span>
-      <span class="text-2xl font-bold text-[#003366]">40.1%</span>
-      <span class="text-[9px] text-indigo-600 font-medium mt-1">Phân hóa mạnh mẽ (46.9pp)</span>
-    </div>
-    <!-- Huy động & Tín dụng & Nợ -->
-    <div class="col-span-4 grid grid-cols-3 gap-4 mt-2">
-      <div class="bg-amber-50/50 rounded-lg p-4 border border-amber-100 flex flex-col items-center justify-center transform transition-transform hover:scale-105">
-        <span class="text-[10px] uppercase font-bold text-amber-800 tracking-wider mb-1">Nguồn vốn (CASA)</span>
-        <span class="text-2xl font-bold text-[#E67300]">15.72%</span>
-        <span class="text-[9px] text-amber-600 font-medium mt-1">Nguồn vốn thắt chặt, chi phí huy động tăng</span>
-      </div>
-      <div class="bg-red-50/50 rounded-lg p-4 border border-red-100 flex flex-col items-center justify-center transform transition-transform hover:scale-105">
-        <span class="text-[10px] uppercase font-bold text-red-800 tracking-wider mb-1">Thanh khoản (LDR)</span>
-        <span class="text-2xl font-bold text-[#CC3333]">103.25%</span>
-        <span class="text-[9px] text-red-600 font-medium mt-1">Áp lực thanh khoản (15 NH vượt mốc 100%)</span>
-      </div>
-      <div class="bg-red-50/50 rounded-lg p-4 border border-red-100 flex flex-col items-center justify-center transform transition-transform hover:scale-105">
-        <span class="text-[10px] uppercase font-bold text-red-800 tracking-wider mb-1">Nợ xấu (NPL)</span>
-        <span class="text-2xl font-bold text-[#CC3333]">2.87%</span>
-        <span class="text-[9px] text-red-600 font-medium mt-1">Rủi ro gia tăng, đệm dự phòng suy yếu</span>
-      </div>
-    </div>
-  </div>
-  
-  <div class="bg-slate-50 border-l-4 border-[#003366] p-4 rounded-r-lg">
-    <p class="text-[12px] leading-relaxed text-slate-700">
-      <span class="font-bold text-[#003366] uppercase">Phần II: Đào sâu nguyên nhân tạo nên sự phân hóa</span><br/>
-      Nhìn chung, hệ thống ngân hàng về mặt tổng thể vẫn ghi nhận sự mở rộng về quy mô tín dụng. Tuy nhiên, hiệu quả vận hành và chất lượng tài sản lại bộc lộ mức độ phân hóa sâu sắc. <strong class="text-[#E67300]">Phần tiếp theo sẽ đi sâu phân tích cấu trúc nhân quả, nhằm bóc tách các yếu tố cốt lõi đang trực tiếp chi phối sự khác biệt về năng lực sinh lời bền vững trong chu kỳ hiện tại.</strong>
-    </p>
-  </div>
-</div>
-
----
-transition: slide-left
 ---
 
 <!-- SLIDE MỤC LỤC: Phần II highlighted -->
@@ -1327,7 +1140,7 @@ transition: slide-left
     </p>
   </div>
   
-  <div class="w-full flex flex-col justify-center flex-1 animate-fade-in-right">
+  <div class="w-full flex flex-col justify-center flex-1">
     <img src="./public/new_slide_9_1_horizontal_pca.png" class="w-full h-[320px] object-contain mx-auto" />
   </div>
 </div>
