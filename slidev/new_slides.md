@@ -1193,11 +1193,11 @@ transition: slide-left
             <div class="text-[8.5px] text-slate-500 font-semibold">Đại diện: NH 4, NH 2</div>
           </td>
           <td class="py-2 px-3 align-top text-justify">
-            Luôn vững vàng tại vị trí cụm <span class="text-[#0D9488] font-bold">🟢 (Ngôi sao)</span> hoặc <span class="text-[#003366] font-bold">🔵 (Ổn định)</span> xuyên suốt 3 giai đoạn bất chấp stress test. Nhóm này hội tụ đủ <strong class="text-slate-800">3 "gene" bền vững</strong>:
+            Vững vàng tại cụm <span class="text-[#0D9488] font-bold">🟢 (Ngôi sao)</span> hoặc <span class="text-[#003366] font-bold">🔵 (Ổn định)</span> qua 3 giai đoạn nhờ sở hữu <strong class="text-slate-800">3 "gene" bền vững</strong>:
             <ul class="list-disc pl-4 mt-0.5 space-y-0 text-slate-600">
-              <li><strong class="text-slate-700">Giá vốn siêu rẻ:</strong> Đệm CASA dày giúp tối ưu chi phí huy động vốn (CoF của <span class="font-bold text-[#0D9488]">NH 4 chỉ ~0.87%</span>, danh nghĩa <span class="font-bold text-[#0D9488]">~2.8%</span>).</li>
-              <li><strong class="text-slate-700">Đệm an toàn vốn vững chắc:</strong> Tỷ lệ an toàn vốn (Equity Ratio) duy trì ở mức cao vượt trội (<span class="font-bold text-[#003366]">>10%</span> ở nhóm đầu).</li>
-              <li><strong class="text-slate-700">Phòng vệ rủi ro tuyệt đối:</strong> Trích lập dự phòng nghiêm ngặt, tỷ lệ bao phủ nợ xấu (LLR Coverage) 2024 của <span class="font-bold text-[#0D9488]">NH 4 đạt 223.31%</span> và <span class="font-bold text-[#0D9488]">NH 2 đạt 174.68%</span>.</li>
+              <li><strong class="text-slate-700">Giá vốn rẻ:</strong> Đệm CASA dày giúp tối ưu chi phí huy động (CoF của <span class="font-bold text-[#0D9488]">NH 4 chỉ ~0.87%</span>, danh nghĩa <span class="font-bold text-[#0D9488]">~2.8%</span>).</li>
+              <li><strong class="text-slate-700">Đệm vốn vững chắc:</strong> Tỷ lệ an toàn vốn (Equity Ratio) duy trì ở mức cao vượt trội (<span class="font-bold text-[#003366]">>10%</span>).</li>
+              <li><strong class="text-slate-700">Phòng vệ rủi ro cao:</strong> Trích lập nghiêm ngặt, tỷ lệ bao phủ nợ xấu 2024 của <span class="font-bold text-[#0D9488]">NH 4 đạt 223.31%</span>, <span class="font-bold text-[#0D9488]">NH 2 đạt 174.68%</span>.</li>
             </ul>
           </td>
         </tr>
@@ -1211,11 +1211,11 @@ transition: slide-left
             <div class="text-[8.5px] text-slate-500 font-semibold">Đại diện: NH 1, NH 2</div>
           </td>
           <td class="py-2 px-3 align-top text-justify">
-            Bứt phá tích cực từ cụm <span class="text-[#C0392B] font-bold">🔴 (Cần giám sát)</span> hoặc cụm <span class="text-[#E67E22] font-bold">🟡 (Chuyển đổi)</span> ở GĐ1 vươn lên cụm <span class="text-[#003366] font-bold">🔵/🟢 (Ổn định/Ngôi sao)</span> ở GĐ3 nhờ xoay trục chiến lược quyết liệt:
+            Bứt phá từ cụm <span class="text-[#C0392B] font-bold">🔴 (Cần giám sát)</span> / <span class="text-[#E67E22] font-bold">🟡 (Chuyển đổi)</span> ở GĐ1 lên cụm <span class="text-[#003366] font-bold">🔵/🟢 (Ổn định/Ngôi sao)</span> ở GĐ3 nhờ xoay trục chiến lược quyết liệt:
             <ul class="list-disc pl-4 mt-0.5 space-y-0 text-slate-600">
-              <li><strong class="text-slate-700">Cơ cấu lại nguồn vốn:</strong> Siết chặt tín dụng rủi ro cao (BĐS, trái phiếu doanh nghiệp) và kéo mạnh tệp CASA cá nhân.</li>
-              <li><strong class="text-slate-700">Tối ưu opex triệt để:</strong> Cắt giảm dứt điểm chi phí hoạt động, hạ tỷ lệ CIR từ mức <span class="font-bold text-[#E67E22]">>45%</span> xuống vùng tối ưu <span class="font-bold text-[#0D9488]">~30%</span>.</li>
-              <li><strong class="text-slate-700">Dọn sạch tài sản tồn đọng:</strong> Quyết liệt xử lý và xóa hoàn toàn nợ xấu trái phiếu VAMC để làm sạch bảng cân đối.</li>
+              <li><strong class="text-slate-700">Cơ cấu nguồn vốn:</strong> Siết tín dụng rủi ro cao (BĐS, trái phiếu doanh nghiệp) và tập trung kéo mạnh CASA cá nhân.</li>
+              <li><strong class="text-slate-700">Tối ưu chi phí:</strong> Cắt giảm chi phí hoạt động, hạ nhanh tỷ lệ CIR từ <span class="font-bold text-[#E67E22]">>45%</span> xuống vùng tối ưu <span class="font-bold text-[#0D9488]">~30%</span>.</li>
+              <li><strong class="text-slate-700">Làm sạch bảng cân đối:</strong> Quyết liệt xử lý và tất toán toàn bộ nợ xấu tại trái phiếu VAMC.</li>
             </ul>
           </td>
         </tr>
@@ -1229,11 +1229,11 @@ transition: slide-left
             <div class="text-[8.5px] text-slate-500 font-semibold">Đại diện: NH 22, NH 8</div>
           </td>
           <td class="py-2 px-3 align-top text-justify">
-            Trượt dài từ nhóm dẫn đầu xuống bị cô lập tại cụm rủi ro <span class="text-[#C0392B] font-bold">🔴 (Cần giám sát)</span> do vi phạm kỷ luật vốn và khẩu vị rủi ro quá lớn:
+            Trượt xuống cụm rủi ro <span class="text-[#C0392B] font-bold">🔴 (Cần giám sát)</span> do vi phạm kỷ luật vốn và khẩu vị rủi ro quá lớn:
             <ul class="list-disc pl-4 mt-0.5 space-y-0 text-slate-600">
-              <li><strong class="text-slate-700">Tăng trưởng tín dụng nóng:</strong> Tập trung cho vay các dự án BĐS lớn, đẩy tỷ lệ thanh khoản LDR vượt trần an toàn <span class="font-bold text-[#C0392B]">>100%</span> (cá biệt như <span class="font-bold text-[#C0392B]">NH 8 đạt 142.66%</span>).</li>
-              <li><strong class="text-slate-700">Đệm phòng vệ mỏng:</strong> Đệm vốn tự có bị bào mòn (<span class="font-bold text-[#C0392B]">&lt;6%</span> ở <span class="font-bold text-[#C0392B]">NH 22</span>) và dự phòng bao phủ nợ xấu quá thấp (<span class="font-bold text-[#C0392B]">&lt;50%</span>, cụ thể <span class="font-bold text-[#C0392B]">NH 22 chỉ đạt 8.60%</span>).</li>
-              <li><strong class="text-slate-700">Hệ quả:</strong> Khi thị trường đóng băng cục bộ, nợ xấu nổ tung tàn phá nặng nề vốn chủ sở hữu và lợi nhuận.</li>
+              <li><strong class="text-slate-700">Tín dụng tăng trưởng nóng:</strong> Tập trung cho cho vay các dự án BĐS lớn, đẩy LDR vượt trần an toàn <span class="font-bold text-[#C0392B]">>100%</span> (tiêu biểu như <span class="font-bold text-[#C0392B]">NH 8 đạt 142.66%</span>).</li>
+              <li><strong class="text-slate-700">Đệm phòng vệ yếu:</strong> Đệm vốn tự có bị bào mòn (<span class="font-bold text-[#C0392B]">&lt;6%</span> ở <span class="font-bold text-[#C0392B]">NH 22</span>) và tỷ lệ bao phủ nợ xấu quá thấp (<span class="font-bold text-[#C0392B]">&lt;50%</span>, <span class="font-bold text-[#C0392B]">NH 22 chỉ đạt 8.60%</span>).</li>
+              <li><strong class="text-slate-700">Hệ quả:</strong> Khi thị trường biến động, nợ xấu gia tăng làm xói mòn trực tiếp vốn chủ sở hữu và lợi nhuận.</li>
             </ul>
           </td>
         </tr>
