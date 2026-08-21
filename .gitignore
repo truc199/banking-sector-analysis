@@ -146,3 +146,11 @@ cython_debug/
 *.njsproj
 *.sln
 *.sw?
+
+# Node / Slidev
+node_modules/
+dist-verify/
+*.local
+.vite-inspect/
+.remote-assets/
+components.d.ts

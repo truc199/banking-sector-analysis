@@ -10,8 +10,19 @@ from scipy.spatial import ConvexHull
 from matplotlib.patches import Polygon
 from matplotlib.lines import Line2D
 
+# --- Đường dẫn tương đối theo vị trí file (không phụ thuộc máy) ---
+import sys as _sys
+_sys.stdout.reconfigure(encoding="utf-8")
+from pathlib import Path as _Path
+ROOT = _Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+DOCS = ROOT / "docs"
+PUBLIC = ROOT / "slidev" / "public"
+FONTS = ROOT / "slidev" / "fonts"
+# ------------------------------------------------------------------
+
 # Setup fonts
-for font_file in glob.glob(r'd:\uni\gcontest\slidev\fonts\*.ttf'):
+for font_file in glob.glob(str(FONTS / "*.ttf")):
     try:
         fm.fontManager.addfont(font_file)
     except Exception:
@@ -23,7 +34,7 @@ plt.rcParams['axes.labelcolor'] = '#334155'
 plt.rcParams['xtick.color'] = '#475569'
 plt.rcParams['ytick.color'] = '#475569'
 
-public_dir = r'd:\uni\gcontest\slidev\public'
+public_dir = str(PUBLIC)
 os.makedirs(public_dir, exist_ok=True)
 
 # Helper function
@@ -31,9 +42,9 @@ def safe_div(a, b):
     return np.where((b == 0) | b.isna() | a.isna(), np.nan, a / b)
 
 # Load data
-bs_df = pd.read_csv(glob.glob(r'd:\uni\gcontest\*Balance*')[0])
-inc_df = pd.read_csv(glob.glob(r'd:\uni\gcontest\*Income*')[0])
-note_df = pd.read_csv(glob.glob(r'd:\uni\gcontest\*Note*')[0])
+bs_df = pd.read_csv(glob.glob(str(DATA / "*Balance*"))[0])
+inc_df = pd.read_csv(glob.glob(str(DATA / "*Income*"))[0])
+note_df = pd.read_csv(glob.glob(str(DATA / "*Note*"))[0])
 
 for df in [bs_df, inc_df, note_df]:
     for col in df.columns:

@@ -12,7 +12,18 @@ from scipy.interpolate import PchipInterpolator
 
 # ─── Setup ───────────────────────────────────────────────────────────────
 import matplotlib.font_manager as fm
-for font_file in glob.glob(r'd:\uni\gcontest\slidev\fonts\*.ttf'):
+
+# --- Đường dẫn tương đối theo vị trí file (không phụ thuộc máy) ---
+import sys as _sys
+_sys.stdout.reconfigure(encoding="utf-8")
+from pathlib import Path as _Path
+ROOT = _Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+DOCS = ROOT / "docs"
+PUBLIC = ROOT / "slidev" / "public"
+FONTS = ROOT / "slidev" / "fonts"
+# ------------------------------------------------------------------
+for font_file in glob.glob(str(FONTS / "*.ttf")):
     try:
         fm.fontManager.addfont(font_file)
     except Exception:
@@ -48,11 +59,11 @@ FS_VAL   = 9.5
 FS_LEG   = 10
 
 # ─── Output ──────────────────────────────────────────────────────────────
-public_dir = r'd:\uni\gcontest\slidev\public'
+public_dir = str(PUBLIC)
 os.makedirs(public_dir, exist_ok=True)
 
 # ─── Data ────────────────────────────────────────────────────────────────
-bs_file = glob.glob(r'd:\uni\gcontest\*Balance*')[0]
+bs_file = glob.glob(str(DATA / "*Balance*"))[0]
 bs = pd.read_csv(bs_file)
 bs_5y = bs[bs['Năm'].isin([2020, 2021, 2022, 2023, 2024])].copy()
 

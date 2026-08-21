@@ -10,8 +10,19 @@ import matplotlib.ticker as mticker
 import numpy as np
 import pandas as pd
 
+# --- Đường dẫn tương đối theo vị trí file (không phụ thuộc máy) ---
+import sys as _sys
+_sys.stdout.reconfigure(encoding="utf-8")
+from pathlib import Path as _Path
+ROOT = _Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+DOCS = ROOT / "docs"
+PUBLIC = ROOT / "slidev" / "public"
+FONTS = ROOT / "slidev" / "fonts"
+# ------------------------------------------------------------------
+
 # ─── Setup ───────────────────────────────────────────────────────────────
-for font_file in glob.glob(r'd:\uni\gcontest\slidev\fonts\*.ttf'):
+for font_file in glob.glob(str(FONTS / "*.ttf")):
     try:
         fm.fontManager.addfont(font_file)
     except Exception:
@@ -46,11 +57,11 @@ FS_VAL   = 8.0
 FS_LEG   = 9
 
 # ─── Output ──────────────────────────────────────────────────────────────
-public_dir = r'd:\uni\gcontest\slidev\public'
+public_dir = str(PUBLIC)
 os.makedirs(public_dir, exist_ok=True)
 
 # ─── Data ────────────────────────────────────────────────────────────────
-is_file = glob.glob(r'd:\uni\gcontest\*Income*')[0]
+is_file = glob.glob(str(DATA / "*Income*"))[0]
 inc = pd.read_csv(is_file)
 
 # CIR = |OPEX (B15)| / TOI (B14) * 100

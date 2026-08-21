@@ -4,8 +4,19 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
+# --- Đường dẫn tương đối theo vị trí file (không phụ thuộc máy) ---
+import sys as _sys
+_sys.stdout.reconfigure(encoding="utf-8")
+from pathlib import Path as _Path
+ROOT = _Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+DOCS = ROOT / "docs"
+PUBLIC = ROOT / "slidev" / "public"
+FONTS = ROOT / "slidev" / "fonts"
+# ------------------------------------------------------------------
+
 # Setup fonts
-for font_file in glob.glob(r'd:\uni\gcontest\slidev\fonts\*.ttf'):
+for font_file in glob.glob(str(FONTS / "*.ttf")):
     try:
         fm.fontManager.addfont(font_file)
     except Exception:
@@ -25,13 +36,13 @@ TEAL         = '#0D9488'
 TEXT_DARK    = '#0f172a'
 GRAY_LIGHT   = '#94A3B8'
 
-public_dir = r'd:\uni\gcontest\slidev\public'
+public_dir = str(PUBLIC)
 os.makedirs(public_dir, exist_ok=True)
 
 # Load data
-bs_df = pd.read_csv(r"d:\uni\gcontest\[G'Contest 2026] Đề Vòng 2_1. Balance Sheet.csv")
-inc_df = pd.read_csv(r"d:\uni\gcontest\[G'Contest 2026] Đề Vòng 2_2. Income Statement.csv")
-note_df = pd.read_csv(r"d:\uni\gcontest\[G'Contest 2026] Đề Vòng 2_3. Note.csv")
+bs_df = pd.read_csv(DATA / "[G'Contest 2026] Đề Vòng 2_1. Balance Sheet.csv")
+inc_df = pd.read_csv(DATA / "[G'Contest 2026] Đề Vòng 2_2. Income Statement.csv")
+note_df = pd.read_csv(DATA / "[G'Contest 2026] Đề Vòng 2_3. Note.csv")
 
 for df in [bs_df, inc_df, note_df]:
     for col in df.columns:

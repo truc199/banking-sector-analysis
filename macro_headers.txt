@@ -1,6 +1,0 @@
-GDP 2024: 7.09
-GDP 2020: 2.91
-Monetary headers: ['\ufeff', '', 'Cung tiền M2', 'Tín dụng', 'FX reserve']
-Monetary sub: ['', '', 'Tăng trưởng cung tiền M2 YTD', 'Tăng trưởng tín dụng YTD', 'Dự trữ ngoại hối VN (USD, mil)']
-FX headers: ['\ufeff', '', 'USDVND liên ngân hàng', 'USDVND trung tâm', 'DXY', 'USDJPY', 'EURUSD', 'JPYUSD', 'CNYUSD', 'CNHUSD', 'GBPUSD', 'TWDUSD', 'MYRUSD', 'KRWUSD', 'BDTUSD', 'LKRUSD', 'PKRUSD', 'PHPUSD', 'INRUSD', 'THBUSD', 'CADUSD', 'IDRUSD', 'BRLUSD']
-FX sub: ['', 'Dates', 'USDVND BGN Curncy', 'SBVNUSD Index', 'DXY Curncy', 'USDJPY BGN Curncy', 'EURUSD BGN Curncy', 'JPYUSD BGN Curncy', 'CNYUSD BGN Curncy', 'CNHUSD BGN Curncy', 'GBPUSD BGN Curncy', 'TWDUSD BGN Curncy', 'MYRUSD BGN Curncy', 'KRWUSD BGN Curncy', 'BDTUSD BGN Curncy', 'LKRUSD BGN Curncy', 'PKRUSD BGN Curncy', 'PHPUSD BGN Curncy', 'INRUSD BGN Curncy', 'THBUSD BGN Curncy', 'CADUSD BGN Curncy', 'IDRUSD BGN Curncy', 'BRLUSD BGN Curncy']
